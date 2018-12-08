@@ -1,0 +1,490 @@
+html {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+  font-size: 62.5%;
+  line-height: 1.25rem;
+}
+
+/*****************************************
+  #COLOUR-CLASSES-TITLE 
+  
+\*****************************************/
+.white {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.black {
+  background-color: #0A0A0A;
+}
+
+.grey {
+  background-color: #bfbfbf;
+}
+
+.yellow {
+  background-color: #d3aa78;
+}
+
+.red {
+  background-color: #d73a49;
+}
+
+.green {
+  background-color: #22863a;
+}
+
+.blue {
+  background-color: #0366d6;
+}
+
+.text-white {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.text-black {
+  color: #0A0A0A;
+}
+
+.text-yellow {
+  color: #d3aa78;
+}
+
+.text-red {
+  color: #d73a49;
+}
+
+.text-green {
+  color: #22863a;
+}
+
+.text-blue {
+  color: #0366d6;
+}
+
+/*****************************************
+  #BASE-TITLE
+  
+\*****************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*****************************************
+  #MARGIN-TITLE
+  
+\*****************************************/
+.mt13 {
+  margin-top: 13rem;
+}
+
+.mt4_5 {
+  margin-top: 4.5rem;
+}
+
+.m0a {
+  margin: 0 auto;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mt1 {
+  margin-top: 1rem;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.mb4 {
+  margin-bottom: 4rem;
+}
+
+.mb2 {
+  margin-bottom: 2rem;
+}
+
+.m3 {
+  margin: 3rem;
+}
+
+/*****************************************
+  #WIDTH-TITLE
+  
+\*****************************************/
+.maxw100 {
+  max-width: 100%;
+}
+
+.minw100 {
+  min-width: 100%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.w10 {
+  width: 10rem;
+}
+
+.w16 {
+  width: 16rem;
+}
+
+.w15-5vw {
+  width: 15vw;
+}
+
+@media (min-width: 37.8rem) {
+  .w15-5vw {
+    width: 5vw;
+  }
+}
+
+.w70vw {
+  width: 70vw;
+}
+
+/*****************************************
+  #HEIGHT-TITLE
+  
+\*****************************************/
+.h100 {
+  height: 100%;
+}
+
+.mh100vh {
+  min-height: 100vh;
+}
+
+.ht6 {
+  height: 6rem;
+}
+
+.h10 {
+  height: 10rem;
+}
+
+.h40 {
+  height: 40rem;
+}
+
+.h16 {
+  height: 16rem;
+}
+
+.h70vh {
+  height: 70vh;
+}
+
+.h15-5vw {
+  height: 15vw;
+}
+
+@media (min-width: 37.8rem) {
+  .h15-5vw {
+    height: 5vw;
+  }
+}
+
+/*****************************************
+  #DISPLAY-TITLE
+  
+\*****************************************/
+.dn {
+  display: none;
+}
+
+.db {
+  display: block;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/*****************************************
+  #PADDING-TITLE
+  
+\*****************************************/
+.p3 {
+  padding: 3rem;
+}
+
+.pb25 {
+  padding-bottom: 25rem;
+}
+
+.pb10 {
+  padding-bottom: 10rem;
+}
+
+.pl2 {
+  padding-left: 2rem;
+}
+
+.pr2 {
+  padding-right: 2rem;
+}
+
+.pt1 {
+  padding-top: 1rem;
+}
+
+.pt4 {
+  padding-top: 4rem;
+}
+
+.pb1 {
+  padding-bottom: 1rem;
+}
+
+/*****************************************
+  #TEXT-TITLE 
+  
+\*****************************************/
+.fs3 {
+  font-size: 12vw;
+}
+
+.fs2 {
+  font-size: 2rem;
+}
+
+.fs2_7 {
+  font-size: 2.7rem;
+}
+
+.fs1_5 {
+  font-size: 1.5rem;
+}
+
+.fs1 {
+  font-size: 1rem;
+}
+
+/*****************************************
+  #FLEX-TITLE
+  
+\*****************************************/
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-space {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*****************************************
+  #OVERFLOW-TITLE
+  
+\*****************************************/
+.overflow {
+  overflow: auto;
+}
+
+.overflowxs {
+  overflow-x: scroll;
+}
+
+.overflowyh {
+  overflow-y: hidden;
+}
+
+/*****************************************
+  #POSITION-TITLE
+  
+\*****************************************/
+.pf {
+  position: fixed;
+}
+
+.pr {
+  position: relative;
+}
+
+.pa {
+  position: absolute;
+}
+
+.t0 {
+  top: 0;
+}
+
+.t10 {
+  top: 10%;
+}
+
+.t50 {
+  top: 50%;
+}
+
+.l0 {
+  left: 0;
+}
+
+.l50 {
+  left: 50%;
+}
+
+.b0 {
+  bottom: 0;
+}
+
+.r10 {
+  right: 10%;
+}
+
+.ttc {
+  transform: translate(-50%, -50%);
+}
+
+/*****************************************
+  #LIST-TITLE
+  
+\*****************************************/
+.lsn {
+  list-style: none;
+}
+
+/*****************************************
+  #BORDER-TITLE
+  
+\*****************************************/
+.br10 {
+  border-radius: 10rem;
+}
+
+/*****************************************
+  #MODAL-TITLE
+  
+\*****************************************/
+@keyframes anim {
+  0% {
+    transform: rotate(0);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+
+.db, .dn {
+  animation: anim .4s forwards 0s ease;
+}
+
+/*****************************************
+  #CURSOR-TITLE
+  
+\*****************************************/
+.cp {
+  cursor: pointer;
+}
+
+/*****************************************
+  #HEADER-TITLE
+  
+\*****************************************/
+.navbar-fixed-top {
+  height: 10rem;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+
+.masthead-nav > li + li {
+  margin-left: 1.5vw;
+}
+
+.masthead-nav > li > a {
+  font-size: 4vw;
+}
+
+@media (min-width: 37.8rem) {
+  .masthead-nav > li > a {
+    font-size: 1.6rem;
+  }
+}
+
+.masthead-nav > li > a:hover {
+  background-color: #222;
+}
+
+.masthead-nav > .active > a {
+  border-bottom: solid 2px #fff;
+}
+
+@media (min-width: 76.8rem) {
+  .masthead-nav {
+    float: right;
+  }
+}
+
+.hero {
+  background: url("stream-1/band-assets/images/monkees.jpg") no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 100vh;
+}
+
+@keyframes play18 {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -432px 0px;
+  }
+}
+
+@keyframes play19 {
+  0% {
+    background-position: -432px 0px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+
+.shapeshifter {
+  animation-duration: 300ms;
+  animation-timing-function: steps(18);
+  animation-fill-mode: forwards;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+
+.play {
+  animation-name: play18;
+}
+
+.pause {
+  animation-name: play19;
+}
+
+.sprite {
+  background-image: url(sprite_60fps.svg);
+}
