@@ -23,6 +23,10 @@ html {
   background-color: #bfbfbf;
 }
 
+.darkgrey {
+  background-color: rgb(180, 180, 180);
+}
+
 .yellow {
   background-color: #d3aa78;
 }
@@ -41,6 +45,10 @@ html {
 
 .text-white {
   color: rgba(255, 255, 255, 0.75);
+}
+
+.text-grey {
+  color: #bfbfbf;
 }
 
 .text-black {
@@ -129,12 +137,24 @@ html {
   width: 100%;
 }
 
+.w80 {
+  width: 80%;
+}
+
+.w33 {
+  width: 33%;
+}
+
 .w10 {
   width: 10rem;
 }
 
 .w16 {
   width: 16rem;
+}
+
+.w40 {
+  width: 40rem;
 }
 
 .w15-5vw {
@@ -163,6 +183,14 @@ html {
   min-height: 100vh;
 }
 
+.h80 {
+  height: 80%;
+}
+
+.h33 {
+  height: 33%;
+}
+
 .ht6 {
   height: 6rem;
 }
@@ -173,6 +201,10 @@ html {
 
 .h40 {
   height: 40rem;
+}
+
+.h50 {
+  height: 50rem;
 }
 
 .h16 {
@@ -241,8 +273,40 @@ html {
   padding-top: 1rem;
 }
 
+.pt2 {
+  padding-top: 2rem;
+}
+
+.pt3 {
+  padding-top: 3rem;
+}
+
 .pt4 {
   padding-top: 4rem;
+}
+
+.pt5 {
+  padding-top: 5rem;
+}
+
+.pt6 {
+  padding-top: 6rem;
+}
+
+.pt7 {
+  padding-top: 7rem;
+}
+
+.pt8 {
+  padding-top: 8rem;
+}
+
+.pt9 {
+  padding-top: 9rem;
+}
+
+.pt10 {
+  padding-top: 10rem;
 }
 
 .pb1 {
@@ -273,6 +337,14 @@ html {
   font-size: 1rem;
 }
 
+.underline { 
+  text-decoration: underline; 
+}
+
+.type {
+  font-family: 'Pacifico', cursive;
+}
+
 /*****************************************
   #FLEX-TITLE
   
@@ -293,6 +365,16 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.flex {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+.flex-footer {
+  flex: 1 0 auto;
 }
 
 /*****************************************
@@ -335,6 +417,14 @@ html {
   top: 10%;
 }
 
+.t33 {
+  top: 33%;
+}
+
+.t66 {
+  top: 66%;
+}
+
 .t50 {
   top: 50%;
 }
@@ -343,12 +433,24 @@ html {
   left: 0;
 }
 
+.l33 {
+  left: 33%;
+}
+
+.l66 {
+  left: 66%;
+}
+
 .l50 {
   left: 50%;
 }
 
 .b0 {
   bottom: 0;
+}
+
+.r0 {
+  right: 0;
 }
 
 .r10 {
@@ -403,6 +505,23 @@ html {
 }
 
 /*****************************************
+  #Z-INDEX-TITLE
+  
+\*****************************************/
+
+.z0 {
+  z-index: 0;
+}
+
+.z1 {
+  z-index: 1;
+}
+
+.z2 {
+  z-index: 2;
+}
+
+/*****************************************
   #HEADER-TITLE
   
 \*****************************************/
@@ -442,13 +561,22 @@ html {
   }
 }
 
-.hero {
-  background: url("stream-1/band-assets/images/monkees.jpg") no-repeat;
+/*****************************************
+  #LANDING-TITLE
+  
+\*****************************************/
+.landing {
+  background: no-repeat;
   background-position: center;
   background-size: contain;
   width: 100%;
   height: 100vh;
 }
+
+/*****************************************
+  #MUSIC-PLAY-BUTTON-TITLE
+  
+\*****************************************/
 
 @keyframes play18 {
   0% {
@@ -487,4 +615,67 @@ html {
 
 .sprite {
   background-image: url(sprite_60fps.svg);
+}
+
+
+/*****************************************
+  #CAROUSEL-TITLE
+  
+\*****************************************/
+
+span.glyphicon.glyphicon-chevron-right:before, span.glyphicon.glyphicon-chevron-left:before {
+  color: grey;
+}
+
+a.carousel-control.left, a.carousel-control.right {
+  background-image: none;
+}
+
+/*****************************************
+  #BORDER-TITLE
+  
+  \*****************************************/
+
+.Panel__border--black {
+  border: 1px solid rgba(0,0,0,0.15);
+  box-shadow: 2px 3px 6px 0px rgba(0,0,0,0.75);
+}
+
+/*****************************************
+  #GALLERY-TITLE
+  
+\*****************************************/
+
+.Gallery__width--responsive {
+  width: 80vw;
+  height: 80vw;
+}
+
+@media(min-width: 76.8rem){
+  .Gallery__width--responsive {
+    width: 40rem;
+    height: 40rem;
+  }
+}
+
+/*****************************************
+  #CHECKBOX-HACK-GALLERY-TITLE
+  
+\*****************************************/
+
+input[type="checkbox"]{
+  display:none;
+}
+
+.Gallery__anim {
+  transition: all 0.5s ease-in-out;
+  background: url() center center/cover no-repeat;
+}
+
+input:checked + [class*='modalgallery'] {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
 }

@@ -1,16 +1,3 @@
-//carousel swipe left and right
-$("#myCarousel").swipe({
-
-    swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
-
-        if (direction == 'left') $(this).carousel('next');
-        if (direction == 'right') $(this).carousel('prev');
-
-    },
-    allowPageScroll: "vertical"
-
-});
-
 //add active state to menu buttons
 $(".masthead-nav li").on("click", function () {
     $(".masthead-nav li").removeClass("active");
@@ -23,7 +10,7 @@ $("#bookingmodal").on("click", function () {
 });
 
 //remove open state to modal
-$("#submit").on("click", function () {
+$("#cancelbooking").on("click", function () {
     $("#booking").removeClass("db");
 });
 
