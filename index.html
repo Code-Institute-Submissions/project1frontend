@@ -59,6 +59,7 @@
             </nav>
         </div>
     </header>
+
     <main class="flex-footer">
         <!-- 🛠 GalleryCard2 component -->
         <section id="gallery">
@@ -66,6 +67,7 @@
             <div class="Space flex-center text-white">
                 <h2><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Gallery</h2>
             </div>
+
             <div class="container">
                 <ol class="breadcrumb pull-left grey">
                     <li><a href="#">home</a></li>
@@ -80,38 +82,55 @@
                                     <input id="modalgallery1" type="checkbox" checked="checked" />
                                     <label class="modalgallery1 cp pa t0 l0 m0a w33 h33 Gallery__anim z0" for="modalgallery1"
                                         style="background-image:url('band-assets/images/band.jpg');"></label>
+
                                     <!-- 🛠 Gallery2 component -->
                                     <input id="modalgallery2" type="checkbox" />
                                     <label class="modalgallery2 cp pa t0 l33 m0a w33 h33 Gallery__anim z0" for="modalgallery2"
                                         style="background-image:url('band-assets/images/album.jpg');"></label>
+
+
                                     <!-- 🛠 Gallery2 component -->
                                     <input id="modalgallery3" type="checkbox" />
                                     <label class="modalgallery3 cp pa t0 l66 m0a w33 h33 Gallery__anim z0" for="modalgallery3"
                                         style="background-image:url('band-assets/images/album2.jpg');"></label>
+
+
                                     <!-- 🛠 Gallery2 component -->
                                     <input id="modalgallery4" type="checkbox" />
                                     <label class="modalgallery4 cp pa t33 l0 m0a w33 h33 Gallery__anim z0" for="modalgallery4"
                                         style="background-image:url('band-assets/images/cover.jpg');"></label>
+
+
                                     <!-- 🛠 Gallery2 component -->
                                     <input id="modalgallery7" type="checkbox" />
                                     <label class="modalgallery7 cp pa t33 l33 m0a w33 h33 Gallery__anim z0" for="modalgallery7"
                                         style="background-image:url('band-assets/images/cover3.jpg');"></label>
+
+
                                     <!-- 🛠 Gallery2 component -->
                                     <input id="modalgallery8" type="checkbox" />
                                     <label class="modalgallery8 cp pa t33 l66 m0a w33 h33 Gallery__anim z0" for="modalgallery8"
                                         style="background-image:url('band-assets/images/dj.jpg');"></label>
+
+
                                     <!-- 🛠 Gallery2 component -->
                                     <input id="modalgallery9" type="checkbox" />
                                     <label class="modalgallery9 cp pa t66 l0 m0a w33 h33 Gallery__anim z0" for="modalgallery9"
                                         style="background-image:url('band-assets/images/md.jpg');"></label>
+
+
                                     <!-- 🛠 Gallery2 component -->
                                     <input id="modalgallery10" type="checkbox" />
                                     <label class="modalgallery10 cp pa t66 l33 m0a w33 h33 Gallery__anim z0" for="modalgallery10"
                                         style="background-image:url('band-assets/images/mn.jpg');"></label>
+
+
                                     <!-- 🛠 Gallery2 component -->
                                     <input id="modalgallery11" type="checkbox" />
                                     <label class="modalgallery11 cp pa t66 l66 m0a w33 h33 Gallery__anim z0" for="modalgallery11"
                                         style="background-image:url('band-assets/images/pt.jpg');"></label>
+
+
                                 </div>
                             </div>
                         </div>
@@ -119,6 +138,7 @@
                 </div>
             </div>
         </section>
+
         <!-- 🛠 NewsCard component -->
         <section id="news">
             <!-- 🛠 Space component -->
@@ -303,6 +323,7 @@
                 </div>
             </div>
         </section>
+
         <!-- 🛠 Card component -->
         <section id="events">
             <!-- 🛠 Space component -->
@@ -478,6 +499,7 @@
             </div>
 
         </section>
+
         <!-- 🛠 Video component -->
         <section id="video">
             <!-- 🛠 Space component -->
@@ -510,6 +532,7 @@
                 </div>
             </div>
         </section>
+
         <!-- 🛠 MusicCard component -->
         <section id="music" class="pb10">
             <!-- 🛠 Space component -->
@@ -683,60 +706,60 @@
                 </div>
             </div>
         </section>
+
         <!-- 🛠 modalbookingform2 component -->
         <div id="booking" class="modal pf t0 l0 w100 h100 dn grey">
+            <svg id="cancelbooking" class="pa t0 r0 w15-5vw z1">
+                <use xlink:href="#icon-x" />
+            </svg>
             <div class="container">
                 <div class="row">
-                    <form class="form-horizontal pa t50 l50 ttc Panel__border--black col-xs-11 col-sm-8 darkgrey">
-                        <fieldset class="pr">
-                            <svg id="cancelbooking" class="pa t0 r0 w15-5vw">
-                                <use xlink:href="#icon-x" />
-                            </svg>
-                            <!-- Form Name -->
-                            <legend class="text-center fs2 text-black">Make a booking here
-                            </legend>
+                    <form action="#" class="form-horizontal pa t50 l50 ttc Panel__border--black col-xs-11 col-sm-8 darkgrey">
+                        <!-- Form Name -->
+                        <legend class="text-center fs2 text-black">Make a booking here
+                        </legend>
+                        <fieldset>
                             <!-- Text input-->
-                            <div class="pl2 pr2 form-group">
-                                <label class="col-md-4 control-label " for="textinput">Name</label>
-                                <div class="col-md-5">
-                                    <input id="textinput" name="textinput" type="text" placeholder="Name" class="form-control input-md">
+                            <div class="col-sm-6 col-sm-offset-3 mb2">
+                                <div class="input-group">
+                                    <i class="input-group-addon fa fa-user text-black" aria-hidden="true"></i>
+                                    <input id="textinputname" name="textinputname" type="text" placeholder="Name" class="form-control">
+                                </div>
+                            </div>
+                            <!-- Email input-->
+                            <div class="col-sm-6 col-sm-offset-3 mb2">
+                                <div class="input-group">
+                                    <i class="input-group-addon fa fa-envelope text-black" aria-hidden="true"></i>
+                                    <input id="textinputemail" name="textinputemail" type="email" placeholder="Email"
+                                        class="form-control">
+                                </div>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="col-sm-6 col-sm-offset-3 mb2">
+                                <div class="input-group">
+                                    <i class="input-group-addon fa fa-phone text-black" aria-hidden="true"></i>
+                                    <input id="textinputphone" name="textinputphone" type="text" placeholder="Phone"
+                                        class="form-control">
+                                </div>
+                            </div>
+                            <!-- Number input-->
+                            <div class="col-sm-6 col-sm-offset-3 mb2">
+                                <div class="input-group">
+                                    <i class="input-group-addon fa fa-users text-black" aria-hidden="true"></i>
+                                    <input id="numberinputguests" name="numberinputguests" type="number" min="1"
+                                        placeholder="Guests" class="form-control" aria-label="numberofguests">
                                 </div>
                             </div>
                             <!-- Text input-->
-                            <div class="pl2 pr2 form-group">
-                                <label class="col-md-4 control-label" for="textinput">Email</label>
-                                <div class="col-md-5">
-                                    <input id="textinput" name="textinput" type="text" placeholder="Email" class="form-control
-                                                        input-md">
-                                </div>
-                            </div>
-                            <!-- Text input-->
-                            <div class="pl2 pr2 form-group">
-                                <label class="col-md-4 control-label" for="textinput">Phone</label>
-                                <div class="col-md-5">
-                                    <input id="textinput" name="textinput" type="text" placeholder="Phone" class="form-control
-                                                        input-md">
-                                </div>
-                            </div>
-                            <!-- Text input-->
-                            <div class="pl2 pr2 form-group">
-                                <label class="col-md-4 control-label" for="textinput">Number of guests</label>
-                                <div class="col-md-5">
-                                    <input id="textinput" name="textinput" type="text" placeholder="Number of guests"
-                                        class="form-control
-                                                        input-md">
-                                </div>
-                            </div>
-                            <!-- Text input-->
-                            <div class="pl2 pr2 form-group">
-                                <label class="col-md-4 control-label" for="email">Location</label>
-                                <div class="col-md-5">
-                                    <input id="email" name="email" type="text" placeholder="Location" class="form-control input-md">
+                            <div class="col-sm-6 col-sm-offset-3 mb2">
+                                <div class="input-group">
+                                    <i class="input-group-addon fa fa-map-marker text-black" aria-hidden="true"></i>
+                                    <input id="textinputvenue" name="venue" type="text" placeholder="Venue" class="form-control">
                                 </div>
                             </div>
                             <div class="pl2 pr2 form-group">
-                                <div class="col-md-12 text-center">
-                                    <button class="btn">Submit</button>
+                                <div class="col-sm-12 text-center">
+                                    <button class="btn btn-success">Submit</button>
                                 </div>
                             </div>
                         </fieldset>
