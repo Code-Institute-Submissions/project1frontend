@@ -30,9 +30,13 @@
 
 ![homepage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/webp/project1frontend_homepage.webp)
 
-1. news page
+2. news page
 
 ![newspage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/webp/project1frontend_news.webp)
+
+3. video page
+
+![videopage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/webp/project1frontend_video.webp)
 
 ## Technologies Used
 [(Back to top)](#table-of-contents)
