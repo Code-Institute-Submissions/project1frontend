@@ -27,6 +27,8 @@
 ### Wireframes
 1. Mobile Home Page
 ![homepage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/webp/project1frontend_homepage.webp)
+1. Mobile Home Page
+![homepage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/webp/project1frontend_news.webp)
 
 ## Technologies Used
 [(Back to top)](#table-of-contents)
