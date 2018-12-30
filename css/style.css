@@ -722,6 +722,11 @@ input[type="radio"]{
   opacity: 1;
 }
 
+#newsid1:checked ~ #newslabel1,
+#newsid2:checked ~ #newslabel2 {
+  border-bottom: solid 2px red;
+}
+
 /*****************************************
   #CLEARFIX-TITLE
   
