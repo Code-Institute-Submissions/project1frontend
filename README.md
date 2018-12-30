@@ -81,7 +81,7 @@
 
 7. footer page
 
-![footerpage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_footer.webp)
+![sitemappage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_sitemap.webp)
 
 ## Technologies Used
 [(Back to top)](#table-of-contents)
