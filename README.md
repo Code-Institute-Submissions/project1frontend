@@ -44,7 +44,15 @@
 
 5. photos page
 
-![musicpage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/webp/project1frontend_photos.webp)
+![photospage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/webp/project1frontend_photos.webp)
+
+6. bios page
+
+![biospage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/webp/project1frontend_bios.webp)
+
+7. footer page
+
+![footerpage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/webp/project1frontend_footer.webp)
 
 ## Technologies Used
 [(Back to top)](#table-of-contents)
