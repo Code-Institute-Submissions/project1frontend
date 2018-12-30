@@ -54,6 +54,35 @@
 
 ![footerpage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/mobile/webp/project1frontend_footer.webp)
 
+### Desktop
+1. homepage
+
+![homepage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_homepage.webp)
+
+2. news page
+
+![newspage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_news.webp)
+
+3. video page
+
+![videopage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_video.webp)
+
+4. music page
+
+![musicpage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_music.webp)
+
+5. photos page
+
+![photospage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_photos.webp)
+
+6. bios page
+
+![biospage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_bios.webp)
+
+7. footer page
+
+![footerpage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_footer.webp)
+
 ## Technologies Used
 [(Back to top)](#table-of-contents)
 1. HTML5  
@@ -68,8 +97,11 @@
 
     [![git](https://github.com/DamianMcNulty/my-first-website/blob/master/img/Git-logo.svg)](https://en.wikipedia.org/wiki/Git)  
 
-1. Github
-    [![git](https://github.com/DamianMcNulty/my-first-website/blob/master/img/Octicons-mark-github.svg)](https://en.wikipedia.org/wiki/GitHub) 
+4. Github
+    [![git](https://github.com/DamianMcNulty/my-first-website/blob/master/img/Octicons-mark-github.svg)](https://en.wikipedia.org/wiki/GitHub)
+
+5. Squoosh
+    [![squoosh](https://github.com/GoogleChromeLabs/squoosh/raw/master/src/assets/icon-small.png)](https://squoosh.app/) 
  
 ## Deployment
 [(Back to top)](#table-of-contents)
