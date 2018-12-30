@@ -40,7 +40,11 @@
 
 4. music page
 
-![videopage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/webp/project1frontend_music.webp)
+![musicpage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/webp/project1frontend_music.webp)
+
+5. photos page
+
+![musicpage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/webp/project1frontend_photos.webp)
 
 ## Technologies Used
 [(Back to top)](#table-of-contents)
