@@ -86,6 +86,10 @@ html {
   color: #d73a49;
 }
 
+.text-red:hover {
+  color: darkred;
+}
+
 .text-green {
   color: #22863a;
 }
@@ -132,6 +136,10 @@ html {
 
 .m3 {
   margin: 3rem;
+}
+
+.ml1 {
+  margin-left: 1rem;
 }
 
 /*****************************************
@@ -194,6 +202,10 @@ html {
 
 .mh100vh {
   min-height: 100vh;
+}
+
+.h90vh {
+  height: 90vh;
 }
 
 .h80 {
@@ -691,4 +703,30 @@ input:checked + [class*='modalgallery'] {
   width: 100%;
   height: 100%;
   z-index: 2;
+}
+
+/*****************************************
+  #RADIO-BUTTON-NAVIGATION-TITLE
+  
+\*****************************************/
+
+input[type="radio"]{
+  display:none;
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+#newsid1:checked ~ #newspanelid1,
+#newsid2:checked ~ #newspanelid2 {
+  display: block;
+  opacity: 1;
+}
+
+/*****************************************
+  #CLEARFIX-TITLE
+  
+\*****************************************/
+
+.clear {
+  clear: both;
 }
