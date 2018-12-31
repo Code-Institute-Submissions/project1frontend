@@ -547,6 +547,15 @@ html {
 }
 
 /*****************************************
+  #CLEARFIX-TITLE
+  
+\*****************************************/
+
+.clear {
+  clear: both;
+}
+
+/*****************************************
   #HEADER-TITLE
   
 \*****************************************/
@@ -671,6 +680,10 @@ a.carousel-control.left, a.carousel-control.right {
   
 \*****************************************/
 
+.Gallery__background--position {
+  background: url() center center/cover no-repeat;
+}
+
 .Gallery__width--responsive {
   width: 80vw;
   height: 80vw;
@@ -684,7 +697,7 @@ a.carousel-control.left, a.carousel-control.right {
 }
 
 /*****************************************
-  #CHECKBOX-HACK-GALLERY-TITLE
+  #GALLERY-CHECKBOX-HACK-TITLE
   
 \*****************************************/
 
@@ -692,12 +705,11 @@ input[type="checkbox"]{
   display:none;
 }
 
-.Gallery__anim {
-  transition: all 0.5s ease-in-out;
-  background: url() center center/cover no-repeat;
+[class*='modalgallery'] {
+  transition: all 0.5s ease-out;
 }
 
-input:checked + [class*='modalgallery'] {
+input[type="checkbox"]:checked + [class*='modalgallery'] {
   top: 0;
   left: 0;
   width: 100%;
@@ -706,32 +718,24 @@ input:checked + [class*='modalgallery'] {
 }
 
 /*****************************************
-  #RADIO-BUTTON-NAVIGATION-TITLE
+  #NEWS-RADIO-BUTTON-HACK-NAVIGATION-TITLE
   
 \*****************************************/
 
 input[type="radio"]{
   display:none;
-  opacity: 0;
-  transition: all 1s ease;
 }
 
-#newsid1:checked ~ #newspanelid1,
-#newsid2:checked ~ #newspanelid2 {
+[class*='newspanel'],
+[class*='newslabel'] {
+  transition: all 0.5s ease-in-out;
+}
+
+#newsid1:checked ~ #newspanel1,
+#newsid2:checked ~ #newspanel2  {
   display: block;
-  opacity: 1;
 }
 
-#newsid1:checked ~ #newslabel1,
-#newsid2:checked ~ #newslabel2 {
+input[type="radio"]:checked + [class*='newslabel'] {
   border-bottom: solid 2px red;
-}
-
-/*****************************************
-  #CLEARFIX-TITLE
-  
-\*****************************************/
-
-.clear {
-  clear: both;
 }
