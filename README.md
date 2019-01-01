@@ -23,6 +23,12 @@
 * Consists of 1 HTML page and 1 CSS stylesheet
 
 ## UX
+### User stories
+1. As a user, I would like to see and hear clips from the band's archive
+2. As a user, I would like to know when there is new material available
+3. As a user, I would like to know where and when upcoming events are scheduled
+4. As a user, I would like to view photos of the band
+5. As a user, I would like to find links to social media accounts, Twitter, Facebook and YouTube 
 
 ### Wireframes
 ### Mobile
@@ -31,8 +37,6 @@
 ![homepage](https://damianmcnulty.github.io/project1frontend/wireframes/adobexdbatchexportfordesign/mobile/homepage.png)
 
 ### [Wireframe prototype](https://xd.adobe.com/view/92110a4b-310a-4116-6dc2-2caaf36c19e4-e420/?hints=off)
-
-### [Design Specs](https://xd.adobe.com/spec/b9889b0e-ccfe-4079-be33-932e1632d767-ecdb/)
 
 ## Technologies Used
 [(Back to top)](#table-of-contents)
@@ -52,7 +56,16 @@
     [![git](https://github.com/DamianMcNulty/my-first-website/blob/master/img/Octicons-mark-github.svg)](https://en.wikipedia.org/wiki/GitHub)
 
 5. Squoosh
-    [![squoosh](https://github.com/GoogleChromeLabs/squoosh/raw/master/src/assets/icon-small.png)](https://squoosh.app/) 
+    [![squoosh](https://github.com/GoogleChromeLabs/squoosh/raw/master/src/assets/icon-small.png)](https://squoosh.app/)
+    
+
+6. Balsamiq
+
+    [![balsamiq](https://media.balsamiq.com/files/company/balsamiq-logo-noborder-screen.svg)](https://balsamiq.com)
+
+    Balsamiq Wireframes (formerly Balsamiq Mockups) is the industry-leading rapid wireframing software that combines the comfort and simplicity of paper sketching with the power of a digital tool, so your work is easier to share, modify, and get honest feedback on. Wireframes look like sketches, so stakeholders won't get distracted by little details, and can focus on what's important instead.
+
+7. [AdobeXD](https://www.adobe.com/ie/products/xd.html) 
  
 ## Deployment
 [(Back to top)](#table-of-contents)

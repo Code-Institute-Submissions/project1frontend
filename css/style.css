@@ -732,7 +732,8 @@ input[type="radio"]{
 }
 
 #newsid1:checked ~ #newspanel1,
-#newsid2:checked ~ #newspanel2  {
+#newsid2:checked ~ #newspanel2,
+#newsid3:checked ~ #newspanel3  {
   display: block;
 }
 
