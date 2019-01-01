@@ -28,60 +28,7 @@
 ### Mobile
 1. homepage
 
-![homepage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/mobile/webp/project1frontend_homepage.webp)
-
-2. news page
-
-![newspage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/mobile/webp/project1frontend_news.webp)
-
-3. video page
-
-![videopage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/mobile/webp/project1frontend_video.webp)
-
-4. music page
-
-![musicpage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/mobile/webp/project1frontend_music.webp)
-
-5. photos page
-
-![photospage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/mobile/webp/project1frontend_photos.webp)
-
-6. bios page
-
-![biospage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/mobile/webp/project1frontend_bios.webp)
-
-7. footer page
-
-![footerpage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/mobile/webp/project1frontend_footer.webp)
-
-### Desktop
-1. homepage
-
-![homepage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_homepage.webp)
-
-2. news page
-
-![newspage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_news.webp)
-
-3. video page
-
-![videopage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_video.webp)
-
-4. music page
-
-![musicpage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_music.webp)
-
-5. photos page
-
-![photospage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_photos.webp)
-
-6. bios page
-
-![biospage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_bios.webp)
-
-7. footer page
-
-![sitemappage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_sitemap.webp)
+![homepage](https://damianmcnulty.github.io/project1frontend/wireframes/adobexdbatchexportfordesign/mobile/homepage.png)
 
 ### [Wireframe prototype](https://xd.adobe.com/view/92110a4b-310a-4116-6dc2-2caaf36c19e4-e420/?hints=off)
 
