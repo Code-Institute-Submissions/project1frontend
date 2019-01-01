@@ -83,6 +83,10 @@
 
 ![sitemappage](https://damianmcnulty.github.io/project1frontend/wireframes/balsamiq_project1frontend_mobile_wireframes/desktop/webp/project1frontend_sitemap.webp)
 
+### [Wireframe prototype](https://xd.adobe.com/view/92110a4b-310a-4116-6dc2-2caaf36c19e4-e420/?hints=off)
+
+### [Design Specs](https://xd.adobe.com/spec/b9889b0e-ccfe-4079-be33-932e1632d767-ecdb/)
+
 ## Technologies Used
 [(Back to top)](#table-of-contents)
 1. HTML5  
