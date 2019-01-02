@@ -31,39 +31,23 @@
 5. As a user, I would like to find links to social media accounts, Twitter, Facebook and YouTube 
 
 ### Wireframes
-### Mobile
-1. homepage
-
-![homepage](https://damianmcnulty.github.io/project1frontend/wireframes/adobexdbatchexportfordesign/mobile/homepage.png)
+see wireframes folder
 
 ### [Wireframe prototype](https://xd.adobe.com/view/92110a4b-310a-4116-6dc2-2caaf36c19e4-e420/?hints=off)
 
 ## Technologies Used
 [(Back to top)](#table-of-contents)
-1. HTML5  
+1. [HTML5](https://en.wikipedia.org/wiki/HTML5) 
 
-    [![htlm5](https://github.com/DamianMcNulty/my-first-website/blob/master/img/HTML5_logo_and_wordmark.svg)](https://en.wikipedia.org/wiki/HTML5) 
+2. [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)  
 
-2. CSS3
+3. [Git](https://git-scm.com/)  
 
-    [![css3](https://github.com/DamianMcNulty/my-first-website/blob/master/img/CSS3_logo_and_wordmark.svg)](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)  
+4. [Github](https://github.com/)
 
-3. Git  
-
-    [![git](https://github.com/DamianMcNulty/my-first-website/blob/master/img/Git-logo.svg)](https://en.wikipedia.org/wiki/Git)  
-
-4. Github
-    [![git](https://github.com/DamianMcNulty/my-first-website/blob/master/img/Octicons-mark-github.svg)](https://en.wikipedia.org/wiki/GitHub)
-
-5. Squoosh
-    [![squoosh](https://github.com/GoogleChromeLabs/squoosh/raw/master/src/assets/icon-small.png)](https://squoosh.app/)
+5. [Squoosh](https://squoosh.app/)
     
-
-6. Balsamiq
-
-    [![balsamiq](https://media.balsamiq.com/files/company/balsamiq-logo-noborder-screen.svg)](https://balsamiq.com)
-
-    Balsamiq Wireframes (formerly Balsamiq Mockups) is the industry-leading rapid wireframing software that combines the comfort and simplicity of paper sketching with the power of a digital tool, so your work is easier to share, modify, and get honest feedback on. Wireframes look like sketches, so stakeholders won't get distracted by little details, and can focus on what's important instead.
+6. [Balsamiq](https://balsamiq.com)
 
 7. [AdobeXD](https://www.adobe.com/ie/products/xd.html) 
  
