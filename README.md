@@ -33,7 +33,7 @@
 ### Wireframes
 see wireframes folder
 
-### [Wireframe prototype](https://xd.adobe.com/view/92110a4b-310a-4116-6dc2-2caaf36c19e4-e420/?hints=off)
+### [Wireframe prototype](https://xd.adobe.com/view/73e6984e-d785-49a5-7d03-933b793651e2-05d7/?fullscreen)
 
 ## Technologies Used
 [(Back to top)](#table-of-contents)
