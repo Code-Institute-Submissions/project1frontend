@@ -27,12 +27,16 @@ $("#cancelbooking").on("click", function () {
         playPauseBtn1 = document.getElementById('playPause1'),
         playPauseBtn2 = document.getElementById('playPause2'),
         playPauseBtn3 = document.getElementById('playPause3'),
-        playPauseBtn4 = document.getElementById('playPause4');
+        playPauseBtn4 = document.getElementById('playPause4'),
+        play1btn = document.getElementById('play1'),
+        play2btn = document.getElementById('play2'),
+        play3btn = document.getElementById('play3'),
+        play4btn = document.getElementById('play4');
 
     playPauseBtn1.addEventListener('click', function () {
         if (play1 == false) {
-            this.classList.remove('pause');
-            this.classList.add('play');
+            play1btn.classList.remove('pause');
+            play1btn.classList.add('play');
             play1 = true;
             play2 = false;
             play3 = false;
@@ -43,8 +47,8 @@ $("#cancelbooking").on("click", function () {
             a2.pause();
             a1.play();
         } else {
-            this.classList.remove('play');
-            this.classList.add('pause');
+            play1btn.classList.remove('play');
+            play1btn.classList.add('pause');
             a1.pause();
             a2.pause();
             a2.load();
@@ -59,8 +63,8 @@ $("#cancelbooking").on("click", function () {
     
     playPauseBtn2.addEventListener('click', function () {
         if (play2 == false) {
-            this.classList.remove('pause');
-            this.classList.add('play');
+            play2btn.classList.remove('pause');
+            play2btn.classList.add('play');
             play2 = true;
             play1 = false;
             play3 = false;
@@ -71,8 +75,8 @@ $("#cancelbooking").on("click", function () {
             a1.pause();
             a2.play();
         } else {
-            this.classList.remove('play');
-            this.classList.add('pause');
+            play2btn.classList.remove('play');
+            play2btn.classList.add('pause');
             a1.pause();
             a2.pause();
             a1.load();
@@ -87,8 +91,8 @@ $("#cancelbooking").on("click", function () {
 
     playPauseBtn3.addEventListener('click', function () {
         if (play3 == false) {
-            this.classList.remove('pause');
-            this.classList.add('play');
+            play3btn.classList.remove('pause');
+            play3btn.classList.add('play');
             play3 = true;
             console.log("play3 is " + play3);
             a4.pause();
@@ -96,8 +100,8 @@ $("#cancelbooking").on("click", function () {
             a1.pause();
             a3.play();
         } else {
-            this.classList.remove('play');
-            this.classList.add('pause');
+            play3btn.classList.remove('play');
+            play3btn.classList.add('pause');
             a1.pause();
             a2.pause();
             a2.load();
@@ -112,8 +116,8 @@ $("#cancelbooking").on("click", function () {
 
     playPauseBtn4.addEventListener('click', function () {
         if (play4 == false) {
-            this.classList.remove('pause');
-            this.classList.add('play');
+            play4btn.classList.remove('pause');
+            play4btn.classList.add('play');
             play4 = true;
             console.log("play4 is " + play4);
             a2.pause();
@@ -121,8 +125,8 @@ $("#cancelbooking").on("click", function () {
             a1.pause();
             a4.play();
         } else {
-            this.classList.remove('play');
-            this.classList.add('pause');
+            play4btn.classList.remove('play');
+            play4btn.classList.add('pause');
             a1.pause();
             a2.pause();
             a2.load();
