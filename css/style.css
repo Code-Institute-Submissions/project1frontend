@@ -56,7 +56,7 @@ html {
 }
 
 .blue {
-  background-color: #0366d6;
+  background-color: #310d88;
 }
 
 .text-white {
@@ -90,11 +90,15 @@ html {
 }
 
 .text-green {
-  color: #22863a;
+  color: #125a14;
 }
 
 .text-blue {
-  color: #0366d6;
+  color: #310d88;
+}
+
+.text-blue:hover {
+  color: darkblue;
 }
 
 /*****************************************
