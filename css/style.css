@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400|ABeeZee:400|Poppins:400');
+
 /*****************************************
   #BASE-TITLE
   
@@ -13,8 +15,13 @@ html {
   height: 100%;
   min-height: 100%;
   position: relative;
+  line-height: 1.5;
   font-size: 62.5%;
-  line-height: 1.25rem;
+}
+
+body {
+  background-color: white;
+  
 }
 
 /*****************************************
@@ -365,9 +372,19 @@ html {
   font-size: 1.5rem;
 }
 
+.fs1_25 {
+  font-size: 1.618rem;
+  margin: 1.250rem 0 0.64rem;
+}
+
 .fs1 {
   font-size: 1rem;
 }
+
+.fs_8 {
+  font-size: .8rem;
+}
+
 
 .underline { 
   text-decoration: underline; 
