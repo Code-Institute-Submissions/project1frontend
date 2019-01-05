@@ -744,7 +744,15 @@ input[type="radio"]{
 }
 
 [class*='newslabel'] {
+  /* display: inline; */
   transition: all 0.5s ease-in-out;
+}
+
+@media(min-width: 38rem){
+  [class*='newslabel'] {
+    display: inline-block;
+    width: 33%;
+  }
 }
 
 #newsid1:checked ~ #newspanel1,
@@ -754,7 +762,9 @@ input[type="radio"]{
 }
 
 input[type="radio"]:checked + [class*='newslabel'] {
-  border-bottom: solid 2px red;
+  background-color: red;
+  color: white;
+
 }
 
 /*****************************************
