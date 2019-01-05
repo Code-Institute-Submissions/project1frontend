@@ -254,6 +254,10 @@ body {
   height: 70vh;
 }
 
+.h50vh {
+  height: 50vh;
+}
+
 .h15-5vw {
   height: 15vw;
 }
