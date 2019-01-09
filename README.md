@@ -53,6 +53,13 @@ see wireframes folder
  
 ## Deployment
 [(Back to top)](#table-of-contents)
+```
+git tag -a v1.0.0 -m "version 1.0.0"
+sh ./publish.sh 1.0.0
+```
+1. a tag is created for a new release
+1. the build directory contains minified html, css and js
+2. publish.sh publishes the content of build to the gh-pages branch
 
 ## Credits
 [(Back to top)](#table-of-contents)
