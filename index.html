@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="w100 flex grey">
@@ -652,7 +652,7 @@
                 </div>
             </div>
         </section>
-        <!-- 🛠 modalbookingform2 component -->
+        <!-- 🛠 modalbookingform3 component -->
         <div id="booking" class="modal pf t0 l0 w100 h100 dn grey">
             <button id="cancelbooking">
                 <svg class="pa t0 r0 w15-5vw z1" tabindex="0">
@@ -672,7 +672,8 @@
                             <div class="col-sm-6 col-sm-offset-3 mb2">
                                 <div class="input-group">
                                     <i class="input-group-addon fa fa-user text-black" aria-hidden="true"></i>
-                                    <input id="textinputname" name="textinputname" type="text" placeholder="Name" class="form-control">
+                                    <input id="textinputname" name="textinputname" type="text" placeholder="Your Name"
+                                        class="form-control">
                                 </div>
                             </div>
                             <!-- Email input-->
@@ -689,6 +690,24 @@
                                     <i class="input-group-addon fa fa-phone text-black" aria-hidden="true"></i>
                                     <input id="textinputphone" name="textinputphone" type="text" placeholder="Phone"
                                         class="form-control">
+                                </div>
+                            </div>
+                            <!-- Date input-->
+                            <div class="col-sm-6 col-sm-offset-3 mb2">
+                                <div class="input-group">
+                                    <label for="date-select">Available dates:</label>
+
+                                    <select id="date-select">
+                                        <option value="">--Please choose an option--</option>
+                                        <option value="7">Friday 7 September 8.00pm</option>
+                                        <option value="8">Saturday 8 September 8.00pm</option>
+                                        <option value="9">Sunday 9 September 8.00pm</option>
+                                        <option value="14">Friday 14 September 7.30pm</option>
+                                        <option value="17">Monday 17 September 7.30pm</option>
+                                        <option value="19">Wednesday 19 September 7.30pm</option>
+                                        <option value="22">Saturday 22 September 8.00pm</option>
+                                        <option value="23">Sunday 23 September 8.00pm</option>
+                                    </select>
                                 </div>
                             </div>
                             <!-- Number input-->
@@ -744,7 +763,7 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
-    <script src="js/script.min.js "></script>
+    <script src="js/script.js "></script>
 </body>
 
 </html>
