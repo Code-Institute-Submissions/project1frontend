@@ -52,6 +52,12 @@ see wireframes folder
 7. [AdobeXD](https://www.adobe.com/ie/products/xd.html)
 
 8. [UnCSS](https://uncss-online.com/)
+
+9. [Site24x7 Link Checker](https://www.site24x7.com/link-checker.html)
+
+10. [HTML5 Validator](https://validator.w3.org/)
+
+10. [CSS3 Validator](https://jigsaw.w3.org/css-validator/)
  
 ## Deployment
 [(Back to top)](#table-of-contents)
@@ -60,7 +66,7 @@ git tag -a v1.0.0 -m "version 1.0.0"
 sh ./publish.sh 1.0.0
 ```
 1. a tag is created for a new release
-1. the build directory contains minified html, css and js
+1. a local build directory contains minified html, css and js
 2. publish.sh publishes the content of build to the gh-pages branch
 
 ## Credits
