@@ -10,12 +10,17 @@
 ## Table of Contents
 - [Description](#description)
 - [UX](#ux)
+
 - [Technologies Used](#technologies-used)
+
 - [Deployment](#deployment)
+
 - [Credits](#credits)
+
     - [Content](#content)
     - [Media](#media)
     - [Acknowledgements](#acknowledgements)
+    
 - [LICENSE](#license)
 
 ## Description
@@ -66,8 +71,8 @@ git tag -a v1.0.0 -m "version 1.0.0"
 sh ./publish.sh 1.0.0
 ```
 1. a tag is created for a new release
-1. a local build directory contains minified html, css and js
-2. publish.sh publishes the content of build to the gh-pages branch
+2. a local build directory contains minified html, css and js
+3. publish.sh publishes the content of build to the gh-pages branch
 
 ## Credits
 [(Back to top)](#table-of-contents)
@@ -75,6 +80,6 @@ sh ./publish.sh 1.0.0
 * [full screen modal](https://medium.com/@andrejsabrickis/a-fullscreen-modal-with-fixed-header-footer-and-a-scrollable-content-1656845c8171)
 * [ToolBox](https://frontend.github.io/toolbox/)
 
-## License:
+## License
 
 See [LICENSE](LICENSE).
