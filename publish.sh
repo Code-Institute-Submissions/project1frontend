@@ -13,31 +13,30 @@ fi
 
 if [[ $(git status -s) ]]
 then
-    echo "⚠️  The working directory is dirty. Please commit any pending changes."
+    echo "⚠️  Please commit any pending changes."
     exit 1;
 fi
 
-echo "backup dist content"
+echo "backup build content"
 mkdir "$DIRECTORY-tmp"
 cp -r $DIRECTORY/* "$DIRECTORY-tmp/"
 
-echo "Deleting dist"
+echo "Deleting build"
 rm -rf $DIRECTORY
 mkdir $DIRECTORY
 git worktree prune
 rm -rf .git/worktrees/$DIRECTORY/
 
-echo "Checking out $BRANCH branch into dist"
+echo "Checking out $BRANCH branch into build"
 git worktree add -B $BRANCH $DIRECTORY
 
 echo "Removing existing files"
 rm -rf $DIRECTORY/*
 
-echo "Generating dist using the backup"
+echo "Generating build using the backup"
 cp -r "$DIRECTORY-tmp"/* $DIRECTORY/
 rm -rf "$DIRECTORY-tmp"
 
 echo "Updating $BRANCH branch"
 cd $DIRECTORY && git add --all && git commit -m "Publishing to $BRANCH (publish.sh)"
 git push --force origin $BRANCH --tags
-
