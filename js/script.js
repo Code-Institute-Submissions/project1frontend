@@ -90,7 +90,6 @@ $("#cancelbooking").on("click", function () {
             play3btn.classList.remove("pause");
             play3btn.classList.add("play");
             play3 = true;
-            console.log("play3 is " + play3);
             a4.pause();
             a2.pause();
             a1.pause();
