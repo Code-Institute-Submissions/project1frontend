@@ -11,6 +11,7 @@
 ## Table of Contents
 
 -   [Description](#description)
+
 -   [UX](#ux)
 
 -   [Technologies Used](#technologies-used)
@@ -50,7 +51,8 @@ see wireframes folder
 ## Technologies Used
 
 [(Back to top)](#table-of-contents)
-1\. [HTML5](https://en.wikipedia.org/wiki/HTML5) 
+
+1.  [HTML5](https://en.wikipedia.org/wiki/HTML5) 
 
 2.  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)  
 
