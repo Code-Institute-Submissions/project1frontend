@@ -16,7 +16,7 @@ const twig = require('gulp-twig');
 gulp.task('twig_templates', function(){
 	return gulp.src('src/*.twig')
 	.pipe(twig())
-	.pipe(gulp.dest('./build'))
+	.pipe(gulp.dest('./build'));
 });
 
 gulp.task('scripts', function(){
@@ -29,11 +29,11 @@ gulp.task('scripts', function(){
 	.pipe(gulp.dest('build/js'))
 	.pipe(uglify())
 	.pipe(rename({ extname: '.min.js' }))
-	.pipe(gulp.dest('build/js'))
+	.pipe(gulp.dest('build/js'));
 });
 
 gulp.task('style', function() {
-	gulp.src(["./src/scss/sprite_60fps.svg","./src/scss/bootstrap1.min.css"]).pipe(gulp.dest('build/css'));
+	gulp.src(['./src/scss/sprite_60fps.svg','./src/scss/bootstrap1.min.css']).pipe(gulp.dest('build/css'));
 	const plugins = [ autoprefixer({browsers: ['last 2 versions','ie 9']}), cssnano() ];
 	return gulp.src('./src/scss/style.scss')
 	.pipe(sass().on('error', sass.logError))
@@ -41,12 +41,12 @@ gulp.task('style', function() {
 	.pipe(gulp.dest('build/css'))
 	.pipe(postcss(plugins))
 	.pipe(rename({ extname: '.min.css' }))
-	.pipe(gulp.dest('build/css'))
+	.pipe(gulp.dest('build/css'));
 });
 
 gulp.task('assets', function(done){
 	gulp.src(['src/assets/**/*']).pipe(gulp.dest('build/band-assets'));
-	return gulp.src(['./README.md',"./LICENSE", "./favicon.ico"]).pipe(gulp.dest('build/'));
+	return gulp.src(['./README.md','./LICENSE', './favicon.ico']).pipe(gulp.dest('build/'));
 });
 
 gulp.task('style_dev_theme', function() {
@@ -63,7 +63,7 @@ gulp.task('scripts_dev_theme', function(){
 	return gulp.src(glob)
 	.pipe(order(['*jquery.min.js*']))
 	.pipe(concat('script.min.js'))
-	.pipe(gulp.dest('src/public/js'))
+	.pipe(gulp.dest('src/public/js'));
 });
 
 gulp.task('clean', function(done) {
