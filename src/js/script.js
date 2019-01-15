@@ -1,7 +1,7 @@
 //add active state to menu buttons
 $('.masthead-nav li').on('click', function () {
     $('.masthead-nav li').removeClass('active');
-    $(this).addClass("active");
+    $(this).addClass('active');
 });
 
 //add open state to modal
@@ -34,7 +34,7 @@ $('#cancelbooking').on('click', function () {
         play4btn = document.getElementById('play4');
 
     playPauseBtn1.addEventListener('click', function () {
-        if (play1 == false) {
+        if (play1 === false) {
             play1btn.classList.remove('pause');
             play1btn.classList.add('play');
             play1 = true;
@@ -60,7 +60,7 @@ $('#cancelbooking').on('click', function () {
     }, false);
     
     playPauseBtn2.addEventListener('click', function () {
-        if (play2 == false) {
+        if (play2 === false) {
             play2btn.classList.remove('pause');
             play2btn.classList.add('play');
             play2 = true;
@@ -82,12 +82,11 @@ $('#cancelbooking').on('click', function () {
             a4.pause();
             a4.load();
             play2 = false;
-            console.log("play2 is " + play2);
         }
     }, false);
 
     playPauseBtn3.addEventListener('click', function () {
-        if (play3 == false) {
+        if (play3 === false) {
             play3btn.classList.remove('pause');
             play3btn.classList.add('play');
             play3 = true;
@@ -110,7 +109,7 @@ $('#cancelbooking').on('click', function () {
     }, false);
 
     playPauseBtn4.addEventListener('click', function () {
-        if (play4 == false) {
+        if (play4 === false) {
             play4btn.classList.remove('pause');
             play4btn.classList.add('play');
             play4 = true;
