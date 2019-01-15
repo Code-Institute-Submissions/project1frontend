@@ -12,9 +12,13 @@ const uglify = require('gulp-uglify');
 const log = require('fancy-log');
 const replace = require('gulp-replace-path');
 const twig = require('gulp-twig');
+var data = require('gulp-data');
 
 gulp.task('twig_templates', function(){
-	return gulp.src('src/*.twig')
+	return gulp.src('src/components/*.twig')
+	.pipe(data(function(file) {
+		return require('./src/data/data.json');
+	  }))
 	.pipe(twig())
 	.pipe(gulp.dest('./build'));
 });
