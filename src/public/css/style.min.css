@@ -203,6 +203,9 @@ table {
     #COLOUR-CLASSES-TITLE 
     
   \*****************************************/
+.white {
+  background-color: #fbfbfb; }
+
 .black {
   background-color: #0A0A0A; }
 
