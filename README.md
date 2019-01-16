@@ -82,8 +82,7 @@ see wireframes folder
 
 ## Build
 
-1.  npm run clean
-2.  npm run build
+    npm run build
 
 ## Deployment
 

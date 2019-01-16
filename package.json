@@ -4,8 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "clean": "gulp",
-    "build": "gulp build"
+    "build": " gulp && gulp build"
   },
   "repository": {
     "type": "git",
