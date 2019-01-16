@@ -16,6 +16,8 @@
 
 -   [Technologies Used](#technologies-used)
 
+-   [Build](#build)
+
 -   [Deployment](#deployment)
 
 -   [Credits](#credits)
@@ -37,8 +39,8 @@
 ### User stories
 
 1.  As a user, I would like to see and hear clips from the band's archive
-2.  As a user, I would like to know when there is new material available
-3.  As a user, I would like to know where and when upcoming events are scheduled
+2.  As a user, I would like to know when new material is available
+3.  As a user, I would like to know about upcoming events
 4.  As a user, I would like to view photos of the band
 5.  As a user, I would like to find links to social media accounts, Twitter, Facebook and YouTube 
 
@@ -74,16 +76,21 @@ see wireframes folder
 
 11. [CSS3 Validator](https://jigsaw.w3.org/css-validator/)
 
+12. [Line Height Calculator](http://www.perfecttypography.com/)
+
+13. [Baseline Rhythm Calculator](http://topfunky.com/baseline-rhythm-calculator/)
+
+## Build
+
+1.  npm run clean
+2.  npm run build
+
 ## Deployment
 
 [(Back to top)](#table-of-contents)
 
-    git tag -a v1.0.0 -m "version 1.0.0"
-    sh ./publish.sh 1.0.0
-
-1.  a tag is created for a new release
-2.  a local build directory contains minified html, css and js
-3.  publish.sh publishes the content of build to the gh-pages branch
+1.  git tag -a v1.0.0 -m "version 1.0.0"
+2.  sh ./publish.sh 1.0.0
 
 ## Credits
 
@@ -91,6 +98,7 @@ see wireframes folder
 
 -   [full screen modal](https://medium.com/@andrejsabrickis/a-fullscreen-modal-with-fixed-header-footer-and-a-scrollable-content-1656845c8171)
 -   [ToolBox](https://frontend.github.io/toolbox/)
+-   [evie](https://github.com/anges244/evie)
 
 ## License
 
