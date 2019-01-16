@@ -34,7 +34,7 @@ html {
   
 \*****************************************/
 body {
-  font-size: 15px;
+  font-size: 1.5rem;
   line-height: 1.4666666666666666em;
   margin: 0;
   padding: 0; }
@@ -81,7 +81,7 @@ table {
 
 @media screen and (min-width: 480px) {
   body {
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.4375em;
     margin: 0;
     padding: 0; }
@@ -121,7 +121,7 @@ table {
 
 @media screen and (min-width: 768px) {
   body {
-    font-size: 17px;
+    font-size: 1.7rem;
     line-height: 1.3529411764705883em;
     margin: 0;
     padding: 0; }
@@ -161,7 +161,7 @@ table {
 
 @media screen and (min-width: 1024px) {
   body {
-    font-size: 19px;
+    font-size: 1.9rem;
     line-height: 1.368421052631579em;
     margin: 0;
     padding: 0; }
