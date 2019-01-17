@@ -37,7 +37,7 @@ gulp.task('scripts', function(){
 });
 
 gulp.task('style', function() {
-	gulp.src(['./src/scss/sprite_60fps.svg','./src/scss/bootstrap1.min.css']).pipe(gulp.dest('build/css'));
+	gulp.src(['./src/scss/sprite_60fps.svg','./src/scss/bootstrap1.min.css','./src/scss/pacifico-regular-webfont.woff','./src/scss/pacifico-regular-webfont.woff2','./src/scss/pacifico-regular-webfont.svg']).pipe(gulp.dest('build/css'));
 	const plugins = [ autoprefixer({browsers: ['last 2 versions','ie 9']}), cssnano() ];
 	return gulp.src('./src/scss/style.scss')
 	.pipe(sass().on('error', sass.logError))
