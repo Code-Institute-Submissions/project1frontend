@@ -22,28 +22,28 @@
   #VERTICAL-RHYTHM-GRID-TITLE
   
 \*****************************************/
-body {
-  /* Vertical Rhythm Reset: Grid Lines */
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='21px' height='21px' viewBox='0 0 21 21' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='grid' height='21' width='1000' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 21 0 L -1 0 -1 21' fill='none' stroke='rgba(233, 30, 99, 0.5)' stroke-width='1' /%3E%3C/pattern%3E%3C/defs%3E%3Crect width='21px' height='21px' fill='url(%23grid)' /%3E%3C/svg%3E") !important;
-  background-color: transparent !important;
-}
+// body {
+//   /* Vertical Rhythm Reset: Grid Lines */
+//   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='21px' height='21px' viewBox='0 0 21 21' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='grid' height='21' width='1000' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 21 0 L -1 0 -1 21' fill='none' stroke='rgba(233, 30, 99, 0.5)' stroke-width='1' /%3E%3C/pattern%3E%3C/defs%3E%3Crect width='21px' height='21px' fill='url(%23grid)' /%3E%3C/svg%3E") !important;
+//   background-color: transparent !important;
+// }
 
-body *:not(hr) {
-  /* Vertical Rhythm Reset: Grid Highlight */
-  background: transparent !important;
-}
+// body *:not(hr) {
+//   /* Vertical Rhythm Reset: Grid Highlight */
+//   background: transparent !important;
+// }
 
-@media (min-width: 60em) {
-  body {
-    /* Vertical Rhythm Reset: Grid Lines */
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='24px' height='24px' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='grid' height='24' width='1000' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 24 0 L -1 0 -1 24' fill='none' stroke='rgba(0, 0, 255, 0.5)' stroke-width='1' /%3E%3C/pattern%3E%3C/defs%3E%3Crect width='24px' height='24px' fill='url(%23grid)' /%3E%3C/svg%3E") !important;
-    background-color: transparent !important;
-  }
-  body *:not(hr) {
-    /* Vertical Rhythm Reset: Grid Highlight */
-    background: transparent !important;
-  }
-}
+// @media (min-width: 60em) {
+//   body {
+//     /* Vertical Rhythm Reset: Grid Lines */
+//     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='24px' height='24px' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='grid' height='24' width='1000' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 24 0 L -1 0 -1 24' fill='none' stroke='rgba(0, 0, 255, 0.5)' stroke-width='1' /%3E%3C/pattern%3E%3C/defs%3E%3Crect width='24px' height='24px' fill='url(%23grid)' /%3E%3C/svg%3E") !important;
+//     background-color: transparent !important;
+//   }
+//   body *:not(hr) {
+//     /* Vertical Rhythm Reset: Grid Highlight */
+//     background: transparent !important;
+//   }
+// }
 
 @media (min-width: 80em) {
   body {
