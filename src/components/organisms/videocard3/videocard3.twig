@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="h100">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="The Band concert tickets are available now." />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>The Monkees</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132354540-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-132354540-1');
+    </script>
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://damianmcnulty.github.io/project1frontend/css/bootstrap1.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="w100 flex grey SourceSansPro">
+        {% include "@organisms/header1/header1.twig" %}
+        <main class="flex-footer">
+            {% include "@organisms/newscard2/newscard2-newscard2_v1.twig" %}
+            {% include "@organisms/card/card.twig" %}
+            {% include "@organisms/gallerycard2/gallerycard2.twig" %}
+            {% include "@organisms/video/video.twig" %}
+            {% include "@organisms/musiccard/musiccard.twig" %}
+            {% include "@atoms/modalbookingform3/modalbookingform3.twig" %}
+        </main>
+        {% include "@organisms/footer/footer.twig" %}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
+        <script src="js/script.min.js "></script>
+    </body>
+</html>

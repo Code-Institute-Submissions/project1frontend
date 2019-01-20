@@ -1,0 +1,69 @@
+{
+  "spaces": [
+    {"heading": "Gallery", "icon": "picture"},
+    {"heading": "Latest News", "icon": "info-sign"},
+    {"heading": "Events", "icon": "calendar"},
+    {"heading": "Video", "icon": "film"},
+    {"heading": "Music", "icon": "music"}
+    ],
+  "menu": ["gallery", "news", "events", "video", "music"],
+  "events": [
+    { "theatre": "The Heights Theatre", "link": "https://tinyurl.com/ybuhcyko", "location": "Houston, Texas", "month": "September", "date": "7", "day": "Friday", "time": "8.00pm" },
+    { "theatre": "The Paramount Theatre", "link": "https://tinyurl.com/yd3l4pd4", "location": "Austin, Texas", "month": "September", "date": "8", "day": "Saturday", "time": "8.00pm" },
+    { "theatre": "The Kessler Theatre", "link": "https://tinyurl.com/y82ctkdv", "location": "Dallas, Texas", "month": "September", "date": "9", "day": "Sunday", "time": "8.00pm" },
+    { "theatre": "Royal Oak Music Theatre", "link": "https://tinyurl.com/y9r8ckdq", "location": "Royal Oak, Michigan", "month": "September", "date": "14", "day": "Friday", "time": "7.30pm" },
+    { "theatre": "The Birchmere", "link": "https://tinyurl.com/y7w7ptb4", "location": "Alexandria, Virginia", "month": "September", "date": "17", "day": "Monday", "time": "7.30pm" },
+    { "theatre": "The Somerville Theatre", "link": "https://tinyurl.com/y7n6qrsu", "location": "Somerville, Massachusetts", "month": "September", "date": "19", "day": "Wednesday", "time": "7.30pm" },
+    { "theatre": "The Colonial Theatre", "link": "https://tinyurl.com/ya898cv5", "location": "Phoenixville, Pennsylvania", "month": "September", "date": "22", "day": "Saturday", "time": "8.00pm" },
+    { "theatre": "The Ridgefield Playhouse", "link": "https://tinyurl.com/ya39k8s5", "location": "Ridgefield, Connecticut", "month": "September", "date": "23", "day": "Sunday", "time": "8.00pm" }
+  ],
+  "music": [
+    {"track": "Stepping Stone", "src": "band-assets/audio/SteppingStone.mp3", "audio_id": "audio1", "playPause": "playPause1", "playid": "play1"},
+    {"track": "The Last Train To Clarksville", "src": "band-assets/audio/Clarksville.mp3", "audio_id": "audio2", "playPause": "playPause2", "playid": "play2"},
+    {"track": "Daydream Believer", "src": "band-assets/audio/DaydreamBeliever.mp3", "audio_id": "audio3", "playPause": "playPause3", "playid": "play3"},
+    {"track": "I'm A Believer", "src": "band-assets/audio/ImABeliever.mp3", "audio_id": "audio4", "playPause": "playPause4", "playid": "play4"}
+    ],
+  "video": [
+    {"title": "Daydream Believer", "pic": "band-assets/images/monkees.webp", "src": "band-assets/video/TheMonkees.mp4"}
+    ],
+  "news": [
+    {"modalid": "gallerymodal1", "modal": "modalgallery1", "cancel": "cancel1", "src": "/stream-1//band-assets//images//band.jpg", "alt": "The Band", "heading": "Introduction", "text": "The Monkees were an American rock and pop band originally active between 1966 and 1971, with reunion albums and tours in the decades that followed."},
+    {"modalid": "gallerymodal2", "modal": "modalgallery2", "cancel": "cancel2", "src": "/stream-1//band-assets//images//album.jpg", "alt": "Album", "heading": "Second", "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nemo quis optio..."},
+    {"modalid": "gallerymodal3", "modal": "modalgallery3", "cancel": "cancel3", "src": "/stream-1//band-assets//images//album2.jpg", "alt": "Album2", "heading": "Third", "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nemo quis optio..."},
+    {"modalid": "gallerymodal4", "modal": "modalgallery4", "cancel": "cancel4", "src": "/stream-1//band-assets//images//cover.jpg", "alt": "Album2", "heading": "Third", "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nemo quis optio..."},
+    {"modalid": "gallerymodal5", "modal": "modalgallery5", "cancel": "cancel5", "src": "/stream-1//band-assets//images//cover1.jpg", "alt": "Album2", "heading": "Third", "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nemo quis optio..."},
+    {"modalid": "gallerymodal6", "modal": "modalgallery6", "cancel": "cancel6", "src": "/stream-1//band-assets//images//cover2.png", "alt": "Album2", "heading": "Third", "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nemo quis optio..."},
+    {"modalid": "gallerymodal7", "modal": "modalgallery7", "cancel": "cancel7", "src": "/stream-1//band-assets//images//cover3.jpg", "alt": "Album2", "heading": "Third", "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nemo quis optio..."},
+    {"modalid": "gallerymodal8", "modal": "modalgallery8", "cancel": "cancel8", "src": "/stream-1//band-assets//images//dj.jpg", "alt": "Album2", "heading": "Third", "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nemo quis optio..."},
+    {"modalid": "gallerymodal9", "modal": "modalgallery9", "cancel": "cancel9", "src": "/stream-1//band-assets//images//md.jpg", "alt": "Album2", "heading": "Third", "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nemo quis optio..."},
+    {"modalid": "gallerymodal10", "modal": "modalgallery10", "cancel": "cancel10", "src": "/stream-1//band-assets//images//mn.jpg", "alt": "Album2", "heading": "Third", "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nemo quis optio..."},
+    {"modalid": "gallerymodal11", "modal": "modalgallery11", "cancel": "cancel11", "src": "/stream-1//band-assets//images//pt.jpg", "alt": "Album2", "heading": "Third", "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nemo quis optio..."}
+  ],
+  "news2": [
+    {"heading": "Three New Videos", "newsid": "newsid3", "newspanel": "newspanel3", "newslabel": "newslabel3", "text": [
+      "It's time to get merry with the Monkees! Check out three brand new videos for their soon-to-be classic Christmas tracks including the official music video for 'The Christmas Song,' produced, directed, and animated by Jonathan Nesmith and Susan Holloway.",
+      "18 December 2018"
+      ]},
+    {"heading": "New Album Release", "newsid": "newsid1", "newspanel": "newspanel1", "newslabel": "newslabel1", "text": [
+      "Featuring Newly Recorded Versions Of Classic Christmas Songs Along With New Songs Written For The Band By Peter Buck And Scott McCaughey, Rivers Cuomo, Andy Partridge, And Album Producer Adam Schlesinger",
+      "The Monkees will celebrate the season with their first holiday album, featuring new vocals by Micky Dolenz, Michael Nesmith, and Peter Tork. The late Davy Jones' unmistakable voice - taken from vintage recordings - also appears on two songs.",
+      "Available On CD, Digital Download, And Streaming On October 12",
+      "12 October 2018"
+      ]},
+    {"heading": "New Dates", "newsid": "newsid2", "newspanel": "newspanel2", "newslabel": "newslabel2", "text": [
+      "Happy to announce new dates for Michael Nesmith and the First National Band Redux, on sale now!",
+      "More dates to be announced soon.",
+      "13 July 2018"
+      ]}
+  ],
+  "gallery": [
+    {"modalid": "modalgallery2", "src": "band-assets/images/album.jpg", "position": "t0 l33"},
+    {"modalid": "modalgallery3", "src": "band-assets/images/album2.webp", "position": "t0 l66"},
+    {"modalid": "modalgallery4", "src": "band-assets/images/cover.jpg", "position": "t33 l0"},
+    {"modalid": "modalgallery7", "src": "band-assets/images/cover3.jpg", "position": "t33 l33"},
+    {"modalid": "modalgallery8", "src": "band-assets/images/dj.jpg", "position": "t33 l66"},
+    {"modalid": "modalgallery9", "src": "band-assets/images/md.jpg", "position": "t66 l0"},
+    {"modalid": "modalgallery10", "src": "band-assets/images/mn.jpg", "position": "t66 l33"},
+    {"modalid": "modalgallery11", "src": "band-assets/images/pt.jpg", "position": "t66 l66"}
+  ]
+}

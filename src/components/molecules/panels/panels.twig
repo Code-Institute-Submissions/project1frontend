@@ -1,0 +1,22 @@
+<!-- 🛠 Panels component -->
+<div class="container">
+  {% include "../../atoms/breadcrumb/breadcrumb.twig" with {index: 2} %}
+  <div class="row">
+    <div class="col-xs-12 overflowxs overflowyh">
+      <ul class="lsn nowrap">
+          {% for event in events %}
+            {% include "../../atoms/panel/panel.twig" with {
+            theatre: event.theatre,
+            link: event.link,
+            location: event.location,
+            month: event.month,
+            day: event.day,
+            date: event.date,
+            time: event.time
+            } %}
+          {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+    

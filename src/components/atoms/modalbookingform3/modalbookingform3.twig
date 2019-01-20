@@ -1,0 +1,82 @@
+<!-- 🛠 modalbookingform3 component -->
+        <div id="booking" class="modal pf t0 l0 w100 h100 dn grey">
+            <button id="cancelbooking">
+                <svg class="pa t0 r0 w15-5vw z1" tabindex="0">
+                    <use xlink:href="#icon-x">
+                        <title>Cancel</title>
+                    </use>
+                </svg>
+            </button>
+            <div class="container">
+                <div class="row">
+                    <form action="javascript:void(0)" class="form-horizontal pa t50 l50 ttc Panel__border--black col-xs-11 col-sm-8 darkgrey"
+                        method="post">
+                        <!-- Form Name -->
+                        <fieldset>
+                            <legend class="text-center fs2 text-black">Make a booking here</legend>
+                            <!-- Text input-->
+                            <div class="col-sm-6 col-sm-offset-3 mb2">
+                                <div class="input-group">
+                                    <i class="input-group-addon fa fa-user text-black" aria-hidden="true"></i>
+                                    <input id="textinputname" name="textinputname" type="text" placeholder="Your Name" class="form-control">
+                                </div>
+                            </div>
+                            <!-- Email input-->
+                            <div class="col-sm-6 col-sm-offset-3 mb2">
+                                <div class="input-group">
+                                    <i class="input-group-addon fa fa-envelope text-black" aria-hidden="true"></i>
+                                    <input id="textinputemail" name="textinputemail" type="email" placeholder="Email"
+                                        class="form-control">
+                                </div>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="col-sm-6 col-sm-offset-3 mb2">
+                                <div class="input-group">
+                                    <i class="input-group-addon fa fa-phone text-black" aria-hidden="true"></i>
+                                    <input id="textinputphone" name="textinputphone" type="text" placeholder="Phone"
+                                        class="form-control">
+                                </div>
+                            </div>
+                            <!-- Date input-->
+                            <div class="col-sm-6 col-sm-offset-3 mb2">
+                                <div class="input-group">                 
+                                    <label for="date-select">Available dates:</label>
+
+                                    <select id="date-select">
+                                        <option value="">--Please choose an option--</option>
+                                        {% for event in events %}
+                                            <option value="{{event.date}}">{{event.day}} {{event.date}} {{event.month}} {{event.time}}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Number input-->
+                            <div class="col-sm-6 col-sm-offset-3 mb2">
+                                <div class="input-group">
+                                    <i class="input-group-addon fa fa-users text-black" aria-hidden="true"></i>
+                                    <input id="numberinputguests" name="numberinputguests" type="number" min="1"
+                                        placeholder="Guests" class="form-control" aria-label="numberofguests">
+                                </div>
+                            </div>
+                            <!-- Text input-->
+                            <div class="col-sm-6 col-sm-offset-3 mb2">
+                                <div class="input-group">
+                                    <i class="input-group-addon fa fa-map-marker text-black" aria-hidden="true"></i>
+                                    <input id="textinputvenue" name="venue" type="text" placeholder="Venue" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-sm-offset-3 mb2">
+                                <div class="alert alert-danger" role="alert">
+                                    This form does not submit
+                                </div>
+                            </div>
+                            <div class="pl2 pr2 form-group">
+                                <div class="col-sm-12 text-center">
+                                    <button class="btn btn-success" title="Submit">Submit</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>

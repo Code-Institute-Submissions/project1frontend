@@ -1,0 +1,18 @@
+<!-- 🛠 Gallerycarousel2 component -->
+<div class="col-xs-12 text-center">
+    <div class="panel panel-default Panel__border--black">
+        <div class="panel-body">
+            <div class="container m0a Gallery__width--responsive pr">
+                <input id="modalgallery1" type="checkbox" checked="checked" />
+                <label class="modalgallery1 cp pa t0 l0 m0a w33 h33 Gallery__background--position z0" for="modalgallery1" style="background-image:url('band-assets/images/band.jpg');"></label>
+                {% for g in gallery %}
+                    {% include "../../atoms/gallery2/gallery2.twig" with {
+                        src : g.src,
+                        modalid: g.modalid,
+                        position: g.position
+                    } %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
