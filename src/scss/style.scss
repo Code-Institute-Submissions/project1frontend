@@ -146,13 +146,13 @@
     line-height: 1.3125em;
     margin-bottom: 1.3125em;
   }
-  a, p, ul, ol, blockquote, pre, td, th, label {
+  p, ul, ol, blockquote, pre, td, th, label {
     margin: 0;
     font-size: 1em;
     line-height: 1.5em;
     margin-bottom: 1.5em;
   }
-  p.small {
+  a, p.small {
     margin: 0;
     font-size: 0.8571428571428571em;
     line-height: 1.75em;
@@ -203,13 +203,13 @@
       line-height: 1.3333333333333333em;
       margin-bottom: 1.3333333333333333em;
     }
-    a, p, ul, blockquote, pre, td, th, label {
+    p, ul, blockquote, pre, td, th, label {
       margin: 0;
       font-size: 1em;
       line-height: 1.5em;
       margin-bottom: 1.5em;
     }
-    p.small {
+    a, p.small {
       margin: 0;
       font-size: 0.875em;
       line-height: 1.7142857142857142em;
@@ -252,13 +252,13 @@
       line-height: 1.4210526315789473em;
       margin-bottom: 1.4210526315789473em;
     }
-    a, p, ul, blockquote, pre, td, th, label {
+    p, ul, blockquote, pre, td, th, label {
       margin: 0;
       font-size: 1em;
       line-height: 1.588235294117647em;
       margin-bottom: 1.588235294117647em;
     }
-    p.small {
+    a, p.small {
       margin: 0;
       font-size: 0.8823529411764706em;
       line-height: 1.8em;
