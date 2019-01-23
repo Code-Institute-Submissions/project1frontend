@@ -4,11 +4,11 @@
         {% for name in menu %}
             {% set isActive = activeIndex == loop.index %}
             <li {% if isActive %} class="active" {% endif %}>
-                <a href="#{{name}}" class="text-white" title="{{name}}">{{name}}</a>
+                <a href="#{{name}}" class="text-white uppercase" title="{{name}}">{{name}}</a>
             </li>
         {% endfor %}
             <li>
-                <a id="bookingmodal" href="javascript:void(0)" class="text-white" title="booking">booking</a>
+                <a id="bookingmodal" href="javascript:void(0)" class="text-white uppercase" title="booking">booking</a>
             </li>
     </ul>
 </nav>
