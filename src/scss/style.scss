@@ -818,4 +818,17 @@
   .transparent {
     background: transparent;
   }
+
+  /*****************************************
+    #SUBMIT-BUTTON-CHECKBOX-HACK-TITLE
+    
+  \*****************************************/
   
+  #submit-button, #submit-button-error-message {
+    display: none;
+    transition: all 1s ease;
+  }
+  
+  #submit-button:checked ~ #submit-button-error-message {
+    display: block;
+  }

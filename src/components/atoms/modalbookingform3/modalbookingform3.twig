@@ -65,14 +65,13 @@
                                     <input id="textinputvenue" name="venue" type="text" placeholder="Venue" class="form-control">
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-sm-offset-3 mb2">
-                                <div class="alert alert-danger" role="alert">
-                                    This form does not submit
-                                </div>
-                            </div>
                             <div class="pl2 pr2 form-group">
                                 <div class="col-sm-12 text-center">
-                                    <button class="btn btn-success" title="Submit">Submit</button>
+                                    <input type="checkbox" id="submit-button" />
+                                    <label class="btn btn-success" for="submit-button">Submit</label>
+                                    <span id="submit-button-error-message">
+                                        This form will not submit
+                                    </span>
                                 </div>
                             </div>
                         </fieldset>
