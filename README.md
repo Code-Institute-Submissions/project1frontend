@@ -50,6 +50,9 @@ see wireframes folder
 
 ### [Wireframe prototype](https://xd.adobe.com/view/73e6984e-d785-49a5-7d03-933b793651e2-05d7/?fullscreen)
 
+## Architecture diagram
+
+<img src="https://github.com/DamianMcNulty/project1frontend/blob/master/wireframes/ArchitectureDiagram.jpg/ArchitecutreDiagram.jpg" width=80% height=350px alt="Architecture">
 ## Technologies Used
 
 [(Back to top)](#table-of-contents)
