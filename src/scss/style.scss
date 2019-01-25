@@ -398,8 +398,16 @@
     margin: 0 auto;
   }
   
+  .mb2p {
+    margin: 0 0 2px;
+  }
+
   .mb2 {
     margin-bottom: 2rem;
+  }
+
+  .mt2 {
+    margin-top: 2rem;
   }
   
   /*****************************************
@@ -839,4 +847,33 @@
   
   #submit-button:checked ~ #submit-button-error-message {
     display: block;
+  }
+
+  /*****************************************
+    #LABEL-TITLE
+    
+  \*****************************************/
+
+  label {
+    width: 200px;
+    text-align: left;
+    margin: 0 10px 0 0;
+  }
+
+  @media(min-width: 615px){
+    label {
+      text-align: right;
+    }
+  }
+
+  input, select {
+    width: 300px;
+  }
+
+  fieldset {
+    padding: 1rem;
+  }
+
+  legend {
+    border-bottom: 0;
   }
