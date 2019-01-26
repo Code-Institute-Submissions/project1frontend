@@ -16,6 +16,8 @@
 
 -   [Technologies Used](#technologies-used)
 
+-   [Local Testing](#local-testing)
+
 -   [Build](#build)
 
 -   [Deployment](#deployment)
@@ -87,7 +89,16 @@ see wireframes folder
 
 ## Build
 
+[(Back to top)](#table-of-contents)
+
+    npm i
     npm run build
+
+## Local testing
+
+[(Back to top)](#table-of-contents)
+
+    npm run test_open
 
 ## Deployment
 
