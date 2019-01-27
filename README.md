@@ -54,7 +54,8 @@ see wireframes folder
 
 ## Architecture diagram
 
-<img src="https://github.com/DamianMcNulty/project1frontend/blob/master/wireframes/ArchitectureDiagram/ArchitectureDiagram.jpg" width=80% height=350px alt="Architecture">
+<img src="https://github.com/DamianMcNulty/project1frontend/blob/master/wireframes/ArchitectureDiagram/ArchitectureDiagram.png" width=100%  alt="Architecture">
+
 ## Technologies Used
 
 [(Back to top)](#table-of-contents)
