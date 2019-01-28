@@ -18,9 +18,9 @@
 
 -   [Local Testing](#local-testing)
 
--   [Build](#build)
+-   [CI](#ci)
 
--   [Deployment](#deployment)
+-   [Production](#production)
 
 -   [Credits](#credits)
 
@@ -88,20 +88,20 @@ see wireframes folder
 
 14. [Fontello](http://fontello.com/)
 
-## Build
-
-[(Back to top)](#table-of-contents)
-
-    npm i
-    npm run build
-
 ## Local testing
 
 [(Back to top)](#table-of-contents)
 
+    npm run watchandbuild
     npm run test_open
 
-## Deployment
+## CI
+
+[(Back to top)](#table-of-contents)
+
+    git push
+
+## Production
 
 [(Back to top)](#table-of-contents)
 
@@ -118,4 +118,6 @@ see wireframes folder
 
 ## License
 
-See [LICENSE](LICENSE).
+[(Back to top)](#table-of-contents)
+
+See [LICENSE](LICENSE)

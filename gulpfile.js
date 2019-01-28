@@ -54,34 +54,25 @@ gulp.task('assets', function(done){
 	return gulp.src(['./README.md','./LICENSE', './favicon.ico']).pipe(gulp.dest('build/'));
 });
 
-gulp.task('style_dev_theme', function() {
-	return gulp.src('./src/scss/style.scss')
-	.pipe(sass().on('error', sass.logError))
-	.pipe(rename({ extname: '.min.css' }))
-	.pipe(gulp.dest('src/public/css'));
-});
-
-gulp.task('scripts_dev_theme', function(){
-	var glob = [];
-	glob.push('src/js/libraries/**/*.js');
-	glob.push('src/js/script.js');
-	return gulp.src(glob)
-	.pipe(order(['*jquery.min.js*']))
-	.pipe(concat('script.min.js'))
-	.pipe(gulp.dest('src/public/js'));
-});
-
 gulp.task('clean', function(done) {
 	return del([
-		'src/public/css/*','src/public/js/*',
 		'build/**'
 	]);
 });
 
+gulp.task('watch', function(){
+	gulp.watch('src/scss/*.scss', gulp.parallel('style')),
+	gulp.watch('src/js/*.js', gulp.parallel('scripts')),
+	gulp.watch(['src/*.twig', 'src/**/*.twig'], gulp.parallel('twig_templates'))
+});
+
 gulp.task('default', 
-	gulp.series('clean',
-		gulp.parallel('scripts_dev_theme','style_dev_theme')
-	)
+	gulp.series('clean')
+);
+
+gulp.task('watchandbuild',
+	gulp.series( 'assets',
+		gulp.parallel('style', 'scripts', 'twig_templates', 'watch'))
 );
 
 gulp.task('build',
