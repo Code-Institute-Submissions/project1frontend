@@ -88,6 +88,10 @@ see wireframes folder
 
 14. [Fontello](http://fontello.com/)
 
+14. [Node v10.15.1](https://nodejs.org/en/)
+
+14. [NPM 6.4.1](https://www.npmjs.com/)
+
 ## Local testing
 
 [(Back to top)](#table-of-contents)
