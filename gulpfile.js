@@ -63,7 +63,7 @@ gulp.task('clean', function(done) {
 gulp.task('watch', function(){
 	gulp.watch('src/scss/*.scss', gulp.parallel('style')),
 	gulp.watch('src/js/*.js', gulp.parallel('scripts')),
-	gulp.watch(['src/*.twig', 'src/**/*.twig'], gulp.parallel('twig_templates'))
+	gulp.watch(['src/*.twig', 'src/**/*.twig'], gulp.parallel('twig_templates'));
 });
 
 gulp.task('default', 

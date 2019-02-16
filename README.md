@@ -136,11 +136,10 @@ see screenshots in cbt folder
     (in git bash terminal)
     sh ./publish.sh 1.0.0
 
-The production version is hosted at https://damianmcnulty.github.io/project1frontend/ . It does not contain a backend element. 
+The production version is hosted at <https://damianmcnulty.github.io/project1frontend/> . It does not contain a backend element. 
 
 Note:
-A staging version is hosted at https://project1frontend.netlify.com/ . It contains a working backend for form submission and a reCAPTCHA.
-
+A staging version is hosted at <https://project1frontend.netlify.com/> . It contains a working backend for form submission and a reCAPTCHA.
 
 ## Research
 

@@ -1,6 +1,6 @@
 describe('homepage', function() {
-  var title = "Three New Videos";
-  var title2 = "New Album Release";
+  var title = 'Three New Videos';
+  var title2 = 'New Album Release';
   beforeEach(function() {
     cy.visit('/');
   });
@@ -9,46 +9,32 @@ describe('homepage', function() {
     cy.contains('The Monkees');
   });
   
-  // it('contains title', function(){
-  //   cy.contains(title);
-  // });
+  it('contains title', function(){
+    cy.contains(title);
+  });
 
-  // it('contains title2', function(){
-  //   cy.contains(title);
-  // });
+  it('contains title2', function(){
+    cy.contains(title);
+  });
 
-  // it('cy.title() - get the title', function(){
-  //   cy.title().should('include', 'The Monkees')
-  // })
+  it('cy.title() - get the title', function(){
+    cy.title().should('include', 'The Monkees')
+  })
 
-  // it('focuses input on load', function(){
-  //   cy.focused()
-  //     .should('have.class', 'focus')
-  // });
+  it('.check() - check a checkbox or radio element', () => {
+    // https://on.cypress.io/check
 
-  // it('can take a screenshot', function(){
-  //   cy.screenshot('site', {capture: 'runner'});
-  // });
+    // By default, .check() will check all
+    // matching checkbox or radio elements in succession, one after another
+    cy.get('input[type="checkbox"]').not('[disabled]')
+      .check({ force: true }).should('be.checked')
 
-  // it('.check() - check a checkbox or radio element', () => {
-  //   // https://on.cypress.io/check
+    // Ignore error checking prior to checking
+    cy.get('.action-checkboxes [disabled]')
+      .check({ force: true }).should('be.checked')
 
-  //   // By default, .check() will check all
-  //   // matching checkbox or radio elements in succession, one after another
-  //   cy.get('input[type="checkbox"]').not('[disabled]')
-  //     .check({ force: true }).should('be.checked')
+  })
 
-  //   // Ignore error checking prior to checking
-  //   // cy.get('.action-checkboxes [disabled]')
-  //   //   .check({ force: true }).should('be.checked')
-
-  // })
-
-  // it('.focus() - focus on a DOM element', function() {
-  //   cy.get('#textinputname').focus()
-  //     .should('have.attr', 'autofocus');
-  //     // .prev().should('have.attr', 'style', 'color: orange;')
-  // })
 
   it('contains "booking"', function(){
     cy.contains('booking').click();
