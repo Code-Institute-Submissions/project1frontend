@@ -29,10 +29,6 @@ describe('homepage', function() {
     cy.get('input[type="checkbox"]').not('[disabled]')
       .check({ force: true }).should('be.checked')
 
-    // Ignore error checking prior to checking
-    cy.get('.action-checkboxes [disabled]')
-      .check({ force: true }).should('be.checked')
-
   })
 
 
