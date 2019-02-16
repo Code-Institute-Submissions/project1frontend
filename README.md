@@ -32,17 +32,13 @@
 
 -   [Credits](#credits)
 
-    -   [Content](#content)
-    -   [Media](#media)
-    -   [Acknowledgements](#acknowledgements)
-
 -   [LICENSE](#license)
 
 ## Description
 
 [(Back to top)](#table-of-contents)
 
--   Consists of 1 HTML page and 1 CSS stylesheet
+-   Consists of a static frontend web design for a band. Contains news, events, gallery, video, music, and booking sections. 
 
 ## UX
 
@@ -135,8 +131,16 @@ see screenshots in cbt folder
 
 [(Back to top)](#table-of-contents)
 
-1.  git tag -a v1.0.0 -m "version 1.0.0"
-2.  sh ./publish.sh 1.0.0
+    git tag -a v1.0.0 -m "version 1.0.0"
+
+    (in git bash terminal)
+    sh ./publish.sh 1.0.0
+
+The production version is hosted at https://damianmcnulty.github.io/project1frontend/ . It does not contain a backend element. 
+
+Note:
+A staging version is hosted at https://project1frontend.netlify.com/ . It contains a working backend for form submission and a reCAPTCHA.
+
 
 ## Research
 
