@@ -1,82 +1,84 @@
 <!-- 🛠 modalbookingform3 component -->
-        <div id="booking" class="modal pf t0 l0 r0 b0 dn overflowyh overflowxh grey">
-            <h1 class="text-center">Make a booking</h1>
-            <button id="cancelbooking">
-                <svg class="pa t0 r0 w15-5vw z1" tabindex="0">
-                    <use xlink:href="#icon-x">
-                        <title>Cancel</title>
-                    </use>
-                </svg>
-            </button>
-            <div class="container">
-                <div class="row">
-                    <form action="javascript:void(0)" class="darkgrey Panel__border--black pa t50 l50 ttc col-xs-11 col-sm-8"
-                        method="post">
-                        <!-- Form Name -->
+<section id="booking" class="pb10">
+    <div class="container">
+        {% include "../../atoms/breadcrumb/breadcrumb.twig" with {index: 5} %}
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="panel panel-default Panel__border--black">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Make a booking</h3>
+                    </div>
+                    <form name="booking" class="panel-body" method="post" netlify>
                         <fieldset>
-                            <legend class="text-left fs2 text-black m0 p0">Contact details</legend>
+                            {# <legend class="text-left fs2 text-black m0 p0">Contact details</legend> #}
                             <!-- Text input-->
-                            <div class="mb2p">
-                                {# <div class="input-group"> #}
-                                    <label for="textinputname">Name:</label>
-                                    {# <i class="input-group-addon demo-icon icon-user text-black" aria-hidden="true"></i> #}
-                                    <input autofocus id="textinputname" name="textinputname" type="text" placeholder="Your Name" >
-                                {# </div> #}
+                            <div class="mb1 clear">
+                                <div class="col-25">
+                                    <label class="icon-user" for="textinputname">Name:</label>
+                                </div>
+                                <div class="col-75">
+                                    <input class="text-black pl1" id="textinputname" name="textinputname" type="text" placeholder="Your Name">
+                                </div>
                             </div>
                             <!-- Email input-->
-                            <div class="mb2p">
-                                {# <div class="input-group"> #}
-                                    <label for="textinputemail">Email:</label>
-                                    {# <i class="input-group-addon demo-icon icon-mail-alt text-black" aria-hidden="true"></i> #}
-                                    <input id="textinputemail" name="textinputemail" type="email" placeholder="Email"
-                                        >
-                                {# </div> #}
+                            <div class="mb1 clear">
+                                <div class="col-25">
+                                    <label class="icon-mail-alt" for="textinputemail">Email:</label>
+                                </div>
+                                <div class="col-75">
+                                    <input class="pl1" id="textinputemail" name="textinputemail" type="email" placeholder="Email">
+                                </div>
                             </div>
                             <!-- Phone number input-->
-                            <div class="mb2p">
-                                {# <div class="input-group"> #}
-                                    <label for="textinputphone">Phone:</label>
-                                    {# <i class="input-group-addon demo-icon icon-phone text-black" aria-hidden="true"></i> #}
-                                    <input id="textinputphone" name="textinputphone" type="text" placeholder="Phone"
-                                        >
-                                {# </div> #}
+                            <div class="mb1 clear">
+                                <div class="col-25">
+                                    <label class="icon-phone" for="textinputphone">Phone:</label>
+                                </div>
+                                <div class="col-75">
+                                    <input class="pl1" id="textinputphone" name="textinputphone" type="text" placeholder="Phone">
+                                </div>
                             </div>
-                            </fieldset>
-                            <fieldset>
-                                <legend class="text-left fs2 text-black m0 p0">Booking details</legend>
+                            {# </fieldset>
+                            <fieldset> #}
+                                {# <legend class="text-left fs2 text-black m0 p0">Booking details</legend> #}
                             <!-- Date input-->
-                            <div class="mb2p">
-                                {# <div class="input-group">                  #}
-                                    <label for="date-select">Available dates:</label>
+                            <div class="mb1 clear">
+                                <div class="col-25">
+                                    <label class="icon-calendar" for="date-select">Available dates:</label>
+                                </div>
+                                <div class="col-75">
                                     <select id="date-select">
-                                        <option value="">--Please choose an option--</option>
+                                        <option value="">Available dates</option>
                                         {% for event in events %}
                                             <option value="{{event.date}}">{{event.day}} {{event.date}} {{event.month}} {{event.time}}</option>
                                         {% endfor %}
                                     </select>
-                                {# </div> #}
+                                </div>
                             </div>
                             <!-- Number input-->
-                            <div class="mb2p">
-                                {# <div class="input-group"> #}
-                                    <label for="numberinputguests">Number of guests:</label>
-                                    {# <i class="input-group-addon demo-icon icon-users text-black" aria-hidden="true"></i> #}
-                                    <input id="numberinputguests" name="numberinputguests" type="number" min="1"
+                            <div class="mb1 clear">
+                                <div class="col-25">
+                                    <label class="icon-users" for="numberinputguests">Number of guests:</label>
+                                </div>
+                                <div class="col-75">
+                                    <input class="pl1" id="numberinputguests" name="numberinputguests" type="number" min="1"
                                         placeholder="Guests"  aria-label="numberofguests">
-                                {# </div> #}
+                                </div>
                             </div>
                             <!-- Text input-->
-                            <div class="mb2p">
-                                {# <div class="input-group"> #}
-                                    <label for="venue">Venue:</label>
-                                    {# <i class="input-group-addon demo-icon icon-location text-black" aria-hidden="true"></i> #}
-                                    <input id="textinputvenue" name="venue" type="text" placeholder="Venue" >
-                                {# </div> #}
+                            <div class="mb1 clear">
+                                <div class="col-25">
+                                    <label class="icon-location" for="venue">Venue:</label>
+                                </div>
+                                <div class="col-75">
+                                    <input class="pl1" id="textinputvenue" name="venue" type="text" placeholder="Venue">
+                                </div>
                             </div>
-                            <div class="pl2 pr2 mb2 mt2">
+                            <div class="clear text-center ma0 mb2 mt2" data-netlify-recaptcha="true"></div>
+                            <div class="clear pl2 pr2 mb2 mt2">
                                 <div class="col-sm-12 text-center">
-                                    <input type="reset" id="submit-button" />
-                                    <label class="btn btn-success" for="submit-button">Reset</label>
+                                    <input type="submit" id="submit-button" />
+                                    <label class="btn btn-success" for="submit-button">Submit</label>
                                     <span id="submit-button-error-message">
                                         This form will not submit
                                     </span>
@@ -87,3 +89,5 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>

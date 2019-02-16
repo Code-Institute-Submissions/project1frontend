@@ -70,7 +70,7 @@ gulp.task('default',
 	gulp.series('clean')
 );
 
-gulp.task('watchandbuild',
+gulp.task('buildandwatch',
 	gulp.series( 'assets',
 		gulp.parallel('style', 'scripts', 'twig_templates', 'watch'))
 );

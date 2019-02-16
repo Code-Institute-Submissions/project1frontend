@@ -4,6 +4,8 @@
     <img src="https://img.shields.io/github/stars/DamianMcNulty/project1frontend.svg?style=social" alt="GitHub stars">
 </a>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2ec61397-e1bd-4d8a-8502-e33acc22e2df/deploy-status)](https://app.netlify.com/sites/project1frontend/deploys)
+
 ## Goal
 
 > Build a static website for a band.
@@ -16,11 +18,15 @@
 
 -   [Technologies Used](#technologies-used)
 
+-   [Local Development](#local-development)
+
 -   [Local Testing](#local-testing)
 
 -   [CI](#ci)
 
 -   [Production](#production)
+
+-   [Research](#research)
 
 -   [Credits](#credits)
 
@@ -88,11 +94,21 @@ see wireframes folder
 
 14. [Fontello](http://fontello.com/)
 
+15. [Responsive image generator](https://www.responsivebreakpoints.com/)
+
+## Local development
+
+[(Back to top)](#table-of-contents)
+
+    npm run buildandwatch
+    open http://127.0.0.1:5500/build/index.html with live-server in vscode
+
 ## Local testing
 
 [(Back to top)](#table-of-contents)
 
-    npm run watchandbuild
+    (in separate terminals)
+    npm run buildandwatch
     npm run test_open
 
 ## CI
@@ -108,11 +124,20 @@ see wireframes folder
 1.  git tag -a v1.0.0 -m "version 1.0.0"
 2.  sh ./publish.sh 1.0.0
 
+## Research
+
+[(Back to top)](#table-of-contents)
+
+-   [Full screen image](https://css-tricks.com/perfect-full-page-background-image/)
+-   [make Fontawesome icons equal in size](https://stackoverflow.com/questions/16592849/how-do-i-make-sure-every-glyph-has-the-same-width)
+-   [form labels above inputs](https://stackoverflow.com/questions/6046110/styling-form-with-label-above-inputs)
+-   [Responsive forms](https://www.w3schools.com/howto/howto_css_responsive_form.asp)
+-   [full screen modal](https://medium.com/@andrejsabrickis/a-fullscreen-modal-with-fixed-header-footer-and-a-scrollable-content-1656845c8171)
+
 ## Credits
 
 [(Back to top)](#table-of-contents)
 
--   [full screen modal](https://medium.com/@andrejsabrickis/a-fullscreen-modal-with-fixed-header-footer-and-a-scrollable-content-1656845c8171)
 -   [ToolBox](https://frontend.github.io/toolbox/)
 -   [evie](https://github.com/anges244/evie)
 

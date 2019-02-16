@@ -50,23 +50,23 @@ describe('homepage', function() {
   //     // .prev().should('have.attr', 'style', 'color: orange;')
   // })
 
-  // it('contains "booking"', function(){
-  //   cy.contains('booking').click();
-  //   cy.get('#textinputname')
-  //     .type('My Name')
-  //     .should('have.value', 'My Name');
-  //   cy.get('#textinputemail')
-  //     .type('notemail@example.com')
-  //     .should('have.value', 'notemail@example.com');
-  //   cy.get('#textinputphone')
-  //     .type('0812345678')
-  //     .should('have.value', '0812345678');
-  //   cy.get('#numberinputguests')
-  //     .type('200')
-  //     .should('have.value', '200');
-  //   cy.get('#textinputvenue')
-  //     .type('Any')
-  //     .should('have.value', 'Any');
-  // });
+  it('contains "booking"', function(){
+    cy.contains('booking').click();
+    cy.get('#textinputname')
+      .type('My Name')
+      .should('have.value', 'My Name');
+    cy.get('#textinputemail')
+      .type('notemail@example.com')
+      .should('have.value', 'notemail@example.com');
+    cy.get('#textinputphone')
+      .type('0812345678')
+      .should('have.value', '0812345678');
+    cy.get('#numberinputguests')
+      .type('200')
+      .should('have.value', '200');
+    cy.get('#textinputvenue')
+      .type('Any')
+      .should('have.value', 'Any');
+  });
 
 });
