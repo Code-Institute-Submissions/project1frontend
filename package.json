@@ -8,7 +8,7 @@
     "build": "gulp && gulp build",
     "deploy": "gulp && gulp build",
     "predeploy": "CI=1 npm i cypress; npm run build; npm run test",
-    "cy:run": "cypress run",
+    "cy:run": "cypress run --record --key 40bc74e7-8b92-4fd3-afe3-835acb95c0fd",
     "cy:open": "cypress open",
     "start": "http-server -p 3000 build --silent",
     "test": "start-test start http-get://localhost:3000 cy:run",

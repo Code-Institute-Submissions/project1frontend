@@ -100,10 +100,14 @@ see wireframes folder
 
 18. [Cross Browser Testing](https://crossbrowsertesting.com/)
 
+19. [Cypress.io](https://www.cypress.io/)
+
 ## Local development
 
 [(Back to top)](#table-of-contents)
 
+    git clone https://github.com/DamianMcNulty/project1frontend.git
+    npm i
     npm run buildandwatch
     open http://127.0.0.1:5500/build/index.html with live-server in vscode
 
