@@ -22,6 +22,8 @@
 
 -   [Local Testing](#local-testing)
 
+-   [Cross Browser Testing](#cross-browser-testing)
+
 -   [CI](#ci)
 
 -   [Production](#production)
@@ -100,6 +102,8 @@ see wireframes folder
 
 17. [Responsive image generator](https://www.responsivebreakpoints.com/)
 
+18. [Cross Browser Testing](https://crossbrowsertesting.com/)
+
 ## Local development
 
 [(Back to top)](#table-of-contents)
@@ -114,6 +118,12 @@ see wireframes folder
     (in separate terminals)
     npm run buildandwatch
     npm run test_open
+
+## Cross Browser testing
+
+[(Back to top)](#table-of-contents)
+
+see screenshots in cbt folder
 
 ## CI
 
