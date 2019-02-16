@@ -6,7 +6,7 @@
     {"heading": "Video", "icon": "film"},
     {"heading": "Music", "icon": "music"}
     ],
-  "menu": ["news", "events", "gallery", "video", "music"],
+  "menu": ["news", "events", "gallery", "video", "music", "booking"],
   "events": [
     { "theatre": "The Heights Theatre", "link": "https://tinyurl.com/ybuhcyko", "location": "Houston, Texas", "month": "September", "date": "7", "day": "Friday", "time": "8.00pm" },
     { "theatre": "The Paramount Theatre", "link": "https://tinyurl.com/yd3l4pd4", "location": "Austin, Texas", "month": "September", "date": "8", "day": "Saturday", "time": "8.00pm" },
