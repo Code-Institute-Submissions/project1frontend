@@ -102,8 +102,6 @@ see wireframes folder
 
 19. [Cypress.io](https://www.cypress.io/)
 
-20. [Online Converter](https://www.onlineconverter.com/mp4-to-gif)
-
 ## Local development
 
 [(Back to top)](#table-of-contents)
@@ -132,10 +130,6 @@ see screenshots in cbt folder
 [(Back to top)](#table-of-contents)
 
     git push
-
-### Cypress Testing CI Recording
-
-<img src="https://github.com/DamianMcNulty/project1frontend/blob/master/cypress/videos/cypressvideo1.gif" width=60% height=350px alt="Cypress Recording">
 
 ## Production
 
